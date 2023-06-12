@@ -9,7 +9,7 @@ export default function Header() {
     <header>
       <nav className="nav-bar">
         <a href="/">
-          <img src="src\assets\vegan-logo.png" alt="vegan-logo" className='vegan-logo' />
+          <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597831/Vegan-Paradise/vegan-logo_yvuv0t.png" alt="vegan-logo" className='vegan-logo' />
         </a>
         <ul className={`nav-menu${isMenuOpen ? ' active' : ''}`}>
           <li>
