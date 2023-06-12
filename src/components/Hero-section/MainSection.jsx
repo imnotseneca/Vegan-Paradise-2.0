@@ -5,7 +5,7 @@ export default function MainSection () {
     return (
         <section className='main-section'>
         <Card />
-        <img src="src\assets\—Pngtree—bacon pizza food realistic white_9044351.png" alt="Pizza-image" className='pizza-image' />
+        <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597564/Vegan-Paradise/vegan-pizza_ks24tg.png" alt="Pizza-image" className='pizza-image' />
         </section>
     )
 }
