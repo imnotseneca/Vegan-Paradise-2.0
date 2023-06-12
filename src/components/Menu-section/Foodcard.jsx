@@ -40,7 +40,7 @@ export default function Foodcard () {
                 </div>
             </div>
             <div className="singlecard-container">
-                <img src="src\assets\foodplate.png" alt="" className="food-img"/>
+                <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597560/Vegan-Paradise/foodplate_wqbeqd.png" alt="" className="food-img"/>
                 <span>Random foodplate</span>
                 <div className="cart-interaction">
                     <span>$1</span>
@@ -52,7 +52,7 @@ export default function Foodcard () {
                 </div>
             </div>
             <div className="singlecard-container">
-                <img src="src\assets\foodplate.png" alt="" className="food-img"/>
+                <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597560/Vegan-Paradise/foodplate_wqbeqd.png" alt="" className="food-img"/>
                 <span>Random foodplate</span>
                 <div className="cart-interaction">
                     <span>$1</span>
@@ -64,7 +64,7 @@ export default function Foodcard () {
                 </div>
             </div>
             <div className="singlecard-container">
-                <img src="src\assets\foodplate.png" alt="" className="food-img"/>
+                <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597560/Vegan-Paradise/foodplate_wqbeqd.png" alt="" className="food-img"/>
                 <span>Random foodplate</span>
                 <div className="cart-interaction">
                     <span>$1</span>
