@@ -1,0 +1,17 @@
+.main-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pizza-image {
+    width: 500px;
+    filter: drop-shadow(8px 14px 0px silver);
+}
+
+@media screen and (max-width: 1280px) {
+    .pizza-image {
+        display: none;
+    }
+}

@@ -1,0 +1,71 @@
+/* Custom properties */
+:root {
+  --bg-light: #DAAF54;
+  --clr-primary: #205833;
+  --clr-secondary: #006617;
+  --clr-tertiary: #369322;
+  --clr-quaternary: #7A1939;
+  --ff-family: 'Roboto', sans-serif;
+  --ff-size-sm: 0.8em;
+  --ff-size-m: 1.2em;
+  --ff-size-l: 1.5em;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+/* Box Model Hack */
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+h1 {
+  font-family: var(--ff-primary);
+  font-weight: 600;
+  line-height: 1;
+  font-size:3em;
+}
+
+h3 {
+  font-size: 1,6em;
+  font-family: var(--ff-family);
+  color: var(--clr-primary);
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: var(--ff-family);
+}
+
+li, a, .product-image {
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+img {
+max-width: 100%
+}

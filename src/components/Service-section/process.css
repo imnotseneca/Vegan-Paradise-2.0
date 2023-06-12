@@ -1,0 +1,23 @@
+.process-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10em;
+    padding-bottom: 4em;
+}
+
+.process-img {
+    width: 180px;
+}
+
+.process-description {
+    font-family: 'Poppins';
+    padding-top: 1em;
+}
+
+@media screen and (max-width: 376px) {
+    .process-container {
+        text-align: center;
+
+    }
+}

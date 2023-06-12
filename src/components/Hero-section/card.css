@@ -1,0 +1,48 @@
+@import "../../App.css";
+
+
+.card-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  max-width: 700px;
+  line-height: 1.5em;
+  padding: 2em;
+}
+
+.card-header {
+  font-size: 5em;
+  padding: 1em 0 0.5em 0;
+}
+
+.card-paragraph {
+  font-size: 1.2em;
+  padding: 1em 0 3em 0;
+}
+
+.btn-explore {
+  font-family: 'Poppins';
+  background-color: #841507;
+  font-size: 1.2em;
+  padding: 1em 2em 1em 2em;
+  border-radius: 50px;
+  text-shadow: none;
+  
+}
+
+@media screen and (max-width: 1217px) {
+  .card-container {
+      text-align: center;
+      padding: 0em 2em 2em 2em;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .card-header {
+    font-size: 3em;
+  }
+  .card-paragraph, .btn-explore {
+    font-size: 1em;
+  }
+
+}

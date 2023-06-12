@@ -1,0 +1,32 @@
+.daily-section{
+    background-color: #e2c794;
+    font-family: var(--ff-family);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 4em;
+  }
+
+  .daily-header {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 2em 0 2em 0;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10em;
+    padding:0 2em 0 2em;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 376px) {
+    .daily-header {
+      font-size: 1.7em;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
