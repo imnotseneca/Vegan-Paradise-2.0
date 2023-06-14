@@ -27,8 +27,30 @@
   padding: 1em 2em 1em 2em;
   border-radius: 50px;
   text-shadow: none;
-  
+  opacity: 0.95;
+  position: relative;
+  overflow: hidden;
+  color: #050404;
+  text-decoration: none;
+  transition: 0.3s;
 }
+
+.btn-explore:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #5a0f06;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.btn-explore:hover:before {
+  left: 0;
+}
+
 
 @media screen and (max-width: 1217px) {
   .card-container {

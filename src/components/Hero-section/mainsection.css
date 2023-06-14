@@ -1,9 +1,18 @@
-.main-section {
+@import "../../App.css";
+
+main {
+    background-image: url('../../assets/backgroound.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    font-family: var(--ff-family);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-}
+  }
+
 
 .pizza-image {
     width: 500px;

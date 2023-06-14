@@ -8,11 +8,11 @@
         font-family: 'Poppins';
         text-align: center;
         padding: 1em;
-        margin: 2em;
 }
 
 .option--img {
     width: 100px;
+    cursor: pointer;
 }
 
 .logo--container {

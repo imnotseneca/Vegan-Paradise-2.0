@@ -5,9 +5,15 @@
     gap: 10em;
     padding-bottom: 4em;
 }
+.process-item {
+    background-image: url('../../assets/bg2.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 250px;
+}
 
 .process-img {
-    width: 180px;
+    width: 100%;
 }
 
 .process-description {

@@ -9,9 +9,9 @@ export default function Foodcard () {
                 <div className="cart-interaction">
                     <span>$1</span>
                     <div>
-                        <button>-</button>
+                        <button className='minus-button'>-</button>
                         <span>1</span>
-                        <button>+</button>
+                        <button className="add-button">+</button>
                     </div>
                 </div>
             </div>
@@ -21,9 +21,9 @@ export default function Foodcard () {
                 <div className="cart-interaction">
                     <span>$1</span>
                     <div>
-                        <button>-</button>
+                        <button className='minus-button'>-</button>
                         <span>1</span>
-                        <button>+</button>
+                        <button className="add-button">+</button>
                     </div>
                 </div>
             </div>
@@ -33,9 +33,9 @@ export default function Foodcard () {
                 <div className="cart-interaction">
                     <span>$1</span>
                     <div>
-                        <button>-</button>
+                        <button className='minus-button'>-</button>
                         <span>1</span>
-                        <button>+</button>
+                        <button className="add-button">+</button>
                     </div>
                 </div>
             </div>
@@ -45,9 +45,9 @@ export default function Foodcard () {
                 <div className="cart-interaction">
                     <span>$1</span>
                     <div>
-                        <button>-</button>
+                        <button className='minus-button'>-</button>
                         <span>1</span>
-                        <button>+</button>
+                        <button className="add-button">+</button>
                     </div>
                 </div>
             </div>
@@ -57,9 +57,9 @@ export default function Foodcard () {
                 <div className="cart-interaction">
                     <span>$1</span>
                     <div>
-                        <button>-</button>
+                        <button className='minus-button'>-</button>
                         <span>1</span>
-                        <button>+</button>
+                        <button className="add-button">+</button>
                     </div>
                 </div>
             </div>
@@ -69,9 +69,9 @@ export default function Foodcard () {
                 <div className="cart-interaction">
                     <span>$1</span>
                     <div>
-                        <button>-</button>
+                        <button className='minus-button'>-</button>
                         <span>1</span>
-                        <button>+</button>
+                        <button className="add-button">+</button>
                     </div>
                 </div>
             </div>

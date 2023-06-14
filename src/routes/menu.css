@@ -1,6 +1,6 @@
 .menu-section{
-    background-image: url('../../src/assets/bg2.svg');
-    background-position: center;
+    background-image: url('../../src/assets/menubg.svg');
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: var(--ff-family);
