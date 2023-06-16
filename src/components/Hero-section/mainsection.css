@@ -1,11 +1,7 @@
 @import "../../App.css";
 
 main {
-    background-image: url('../../assets/backgroound.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50rem;
+    height: 51rem;
     font-family: var(--ff-family);
     display: flex;
     flex-flow: row wrap;

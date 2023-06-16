@@ -78,8 +78,8 @@ footer {
 @media screen and (max-width: 376px) {
 
     .footer--container {
-        margin: 2em 0 2em 0;
-        padding: 2em 0 2em 0;
+      margin: 2em 10px 2em 10px;
+      padding: 2em 0 2em 0;
     }
     .footer-header {
         font-size: 1.2em;

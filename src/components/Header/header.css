@@ -1,17 +1,13 @@
 @import "../../App.css";
 
 header {
-    background: rgb(132,21,7);
+    background: transparent;
     padding-top: 2em;
     font-family: 'Poppins', sans-serif;
     font-size: var(--ff-size-m)
 
 }
 
-.bg-active {
-    background-color: #b65b4f;
-    height: 100vh;
-}
 nav {
     display: flex;
     flex-flow: row;
@@ -80,6 +76,7 @@ ul {
         align-items: center;
         gap: 1em;
         padding-bottom: 1em;
+        font-size: 1em;
     }
 
     .nav-btn {

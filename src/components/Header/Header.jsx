@@ -2,9 +2,19 @@ import { useState } from 'react';
 import './header.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
-export default function Header() {
+export default function Header(props) {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
+  // eslint-disable-next-line react/prop-types
+  const navItems = props.headerData.map(element => {
+    return (
+        <li key={element.id}>
+        <a href={element.path} className="nav-item" onClick={() => setMenuOpen(false)}>
+          {element.title}
+        </a>
+      </li>
+  )}) 
+  
   return (
     <header>
       <nav className="nav-bar">
@@ -12,21 +22,7 @@ export default function Header() {
           <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597831/Vegan-Paradise/vegan-logo_yvuv0t.png" alt="vegan-logo" className='vegan-logo' />
         </a>
         <ul className={`nav-menu${isMenuOpen ? ' active' : ''}`}>
-          <li>
-            <a href="#products" className="nav-item" onClick={() => setMenuOpen(false)}>
-              Products
-            </a>
-          </li>
-          <li>
-            <a href="#menu" className="nav-item" onClick={() => setMenuOpen(false)}>
-              Menu
-            </a>
-          </li>
-          <li>
-            <a href="#aboutUs" className="nav-item" onClick={() => setMenuOpen(false)}>
-              About us
-            </a>
-          </li>
+          {navItems}
         </ul>
         {isMenuOpen ? (
           <button className='nav-btn nav-close-btn' onClick={() => setMenuOpen(false)}>

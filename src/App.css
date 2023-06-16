@@ -36,6 +36,13 @@ padding: 0;
 clear: both;
 }
 
+body {
+  background-image: url('./assets/backgroound.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: initial;
+}
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -69,3 +76,5 @@ li, a, .product-image {
 img {
 max-width: 100%
 }
+
+

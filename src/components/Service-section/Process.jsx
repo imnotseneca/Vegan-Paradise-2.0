@@ -1,10 +1,20 @@
 import './process.css'
 
-export default function Process() {
+
+export default function Process(props) {
+    console.log(props)
+    // eslint-disable-next-line react/prop-types
+    const processList = props.processData.map(element => {
+        return (
+            <div className='process-item' key={element.id}>
+            <img src={element.imageURL} alt={element.alt} className="process-img"/>
+            <p className="process-description">{element.processText}</p>
+            </div>
+        )
+    })
     return (
-        <div className='process-item'>
-        <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597559/Vegan-Paradise/mobile-order_spjwad.png" alt="" className="process-img"/>
-        <p className="process-description">Place your order</p>
-        </div>
+        <>
+        {processList}
+        </>
     )
 }
