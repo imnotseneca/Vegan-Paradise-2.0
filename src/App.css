@@ -37,10 +37,11 @@ clear: both;
 }
 
 body {
-  background-image: url('./assets/backgroound.svg');
+  /* background-image: url('./assets/backgroound.svg'); */
+  background-image: url('https://res.cloudinary.com/dd8ikgzov/image/upload/v1687280096/Vegan-Paradise/pizzzabg_w5cvmo.webp');
   background-position: top;
-  background-repeat: no-repeat;
-  background-size: initial;
+  background-repeat:no-repeat;
+  background-size:initial;
 }
 
 /******************************************

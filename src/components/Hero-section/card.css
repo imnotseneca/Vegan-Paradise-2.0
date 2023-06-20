@@ -7,22 +7,29 @@
   align-items: center;
   max-width: 700px;
   line-height: 1.5em;
-  padding: 2em;
+  text-align: center;
+  background-color: rgb(205 203 142 / 66%);
+  box-shadow: 5px 5px 11px rgb(67 11 11 / 82%);
+  padding: 20px;
+  border-radius: 10%;
 }
 
 .card-header {
-  font-size: 5em;
-  padding: 1em 0 0.5em 0;
+  color: #541301;
+  font-size: 4.5em;
+  line-height: 1.2em;
+  padding: .5em 0 0.5em 0;
 }
 
 .card-paragraph {
   font-size: 1.2em;
   padding: 1em 0 3em 0;
+  line-height: 1.5em;
 }
 
 .btn-explore {
   font-family: 'Poppins';
-  background-color: #841507;
+  background-color: #541301;
   font-size: 1.2em;
   padding: 1em 2em 1em 2em;
   border-radius: 50px;
@@ -30,9 +37,11 @@
   opacity: 0.95;
   position: relative;
   overflow: hidden;
-  color: #050404;
+  color: #ebdfac;
   text-decoration: none;
   transition: 0.3s;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .btn-explore:before {
@@ -56,12 +65,15 @@
   .card-container {
       text-align: center;
       padding: 0em 2em 2em 2em;
+      margin-left: 1em;
+      margin-right: 1em;
+      text-wrap: balance;
   }
 }
 
 @media screen and (max-width: 420px) {
   .card-header {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .card-paragraph, .btn-explore {
     font-size: 1em;
