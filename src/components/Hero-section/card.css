@@ -1,4 +1,4 @@
-@import "../../App.css";
+/* @import "../../App.css"; */
 
 
 .card-container {
@@ -11,7 +11,6 @@
   background-color: rgb(205 203 142 / 66%);
   box-shadow: 5px 5px 11px rgb(67 11 11 / 82%);
   padding: 20px;
-  border-radius: 10%;
 }
 
 .card-header {
@@ -23,8 +22,8 @@
 
 .card-paragraph {
   font-size: 1.2em;
-  padding: 1em 0 3em 0;
-  line-height: 1.5em;
+  padding: 1em 0 1em 0;
+  line-height: 2em;
 }
 
 .btn-explore {
@@ -64,14 +63,12 @@
 @media screen and (max-width: 1217px) {
   .card-container {
       text-align: center;
-      padding: 0em 2em 2em 2em;
-      margin-left: 1em;
-      margin-right: 1em;
+      margin: 4.5em 1em 5em 1em;
       text-wrap: balance;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .card-header {
     font-size: 2.5em;
   }

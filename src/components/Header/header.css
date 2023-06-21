@@ -1,96 +1,90 @@
-@import "../../App.css";
+/* @import "../../App.css"; */
 
 header {
-    background: transparent;
-    padding-top: 1em;
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--ff-size-m)
-
+  background: #00000054;
+  font-family: "Poppins", sans-serif;
+  font-size: var(--ff-size-m);
 }
 
 nav {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding-bottom: 1em;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
 }
 
 .vegan-logo {
-    width: 100px;
-    border-radius: 35% 30%;
+  width: 100px;
+  border-radius: 35% 30%;
 }
 
 ul {
-    display: flex;
-    align-items: center;
-    font-size: 1.2em;
-    font-weight: 700;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 .nav-item {
-    padding: 0 2em 0 2em;
-
+  padding: 0 2em 0 2em;
 }
-
 
 .nav-item:hover {
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    color: #f4ead1;
-    background-color: #841507;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #f4ead1;
+  background-color: #841507;
 }
 
-
-
 @media screen and (max-width: 420px) {
-    .vegan-logo{
-        width: 80px;
-    }
+  .vegan-logo {
+    width: 40px;
+  }
 }
 
 @media screen and (min-width: 760px) {
-    .nav-btn {
-        display: none;
-    }
+  .nav-btn {
+    display: none;
+  }
 }
 @media screen and (max-width: 759px) {
-    .nav-menu {
-        display: none;
-    }
+  .nav-menu {
+    display: none;
+  }
 
-    .vegan-logo{
-        margin-left: 2em;
-    }
+  .vegan-logo {
+    margin-left: 2em;
+  }
 
-    .nav-bar {
-        justify-content: space-between;
-    }
-    
-    .nav-menu.active {
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
-        gap: 1em;
-        padding-bottom: 1em;
-        font-size: 1em;
-    }
+  .nav-bar {
+    justify-content: space-between;
+  }
 
-    .nav-btn {
-        background-color: transparent;
-        font-size: 1.5em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border: none;
-        cursor: pointer;
-        margin-right: 1em;
-    }
+  .nav-menu.active {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 1em;
+    padding-bottom: 1em;
+    font-size: 1em;
+  }
 
-    .nav-close-btn {
-        margin-bottom: 5em;
-    }
+  .nav-btn {
+    background-color: transparent;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 1em;
+  }
+
+  .nav-close-btn {
+    margin-bottom: 5em;
+  }
 }

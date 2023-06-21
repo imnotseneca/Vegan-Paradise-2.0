@@ -4,7 +4,7 @@ import DailyCard from './DailyCard'
 export default function Daily () {
     return (
         <section id='products' className='daily-section'>
-            <h2 className='daily-header'>Our daily recommendations:</h2>
+            <h2 className='daily-header'>Daily recommendations:</h2>
             <div className='cards-container'>
                 <DailyCard/>
             </div>

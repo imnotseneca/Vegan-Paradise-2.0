@@ -1,4 +1,4 @@
-@import '../../App.css';
+/* @import '../../App.css'; */
 
 .foodcard--container {
     background-color: rgba(243, 249, 245, 0.473);
@@ -34,14 +34,8 @@
 }
 
 .add-button, .minus-button {
-    /* background-color: var(--clr-quaternary);
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 50px;
-    cursor: pointer; */
-    background: linear-gradient(to bottom, var(--bg-light), var(--clr-quaternary));
-    color: #fff;
+    background: linear-gradient(to bottom,#fff,#d3d1c1);
+    color: black;
     border: none;
     padding: 5px 10px;
     border-radius: 4px;

@@ -1,4 +1,4 @@
-@import "../../App.css";
+/* @import "../../App.css"; */
 
 
 footer {
@@ -75,7 +75,7 @@ footer {
    padding: 1em 0 0.5em 0; 
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 414px) {
 
     .footer--container {
       margin: 2em 10px 2em 10px;

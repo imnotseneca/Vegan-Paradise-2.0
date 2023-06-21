@@ -2,7 +2,6 @@ import './process.css'
 
 
 export default function Process(props) {
-    console.log(props)
     // eslint-disable-next-line react/prop-types
     const processList = props.processData.map(element => {
         return (

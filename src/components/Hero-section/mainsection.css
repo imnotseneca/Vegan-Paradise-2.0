@@ -1,4 +1,4 @@
-@import "../../App.css";
+/* @import "../../App.css"; */
 
 main {
     height: 52.1rem;
@@ -7,16 +7,16 @@ main {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
+    flex: 1;
+
   }
 
-
-/* .pizza-image {
-    width: 500px;
-    filter: drop-shadow(8px 14px 0px silver);
-} */
-/* 
-@media screen and (max-width: 1280px) {
-    .pizza-image {
-        display: none;
+  @media screen and (max-width: 480px) {
+    main {
+      display: block;
     }
-} */
+    .card-paragraph, .btn-explore {
+      font-size: 1em;
+    }
+  
+  }
