@@ -1,14 +1,14 @@
 export const headerData = [
   {
     id:1,
-    title: "Home",
-    path: "/",
+    title: "Menu",
+    path: "#menu",
     cName: "sidebar-nav",
   },
   {
     id:2,
-    title: "Menu",
-    path: "#menu",
+    title: "Daily",
+    path: "#daily",
     cName: "sidebar-nav",
   },
   {

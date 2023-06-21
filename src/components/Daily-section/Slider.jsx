@@ -32,7 +32,7 @@ const CarouselBtnContainer = styled.div`
 `;
 const CarouselBtn = styled.button`
   color: white;
-  background-color: #a50600;
+  background-color: #205833;
   padding: 15px;
   margin: 0;
   border:none;

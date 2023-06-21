@@ -1,5 +1,5 @@
 .daily-section{
-    background-color: #e2c794;
+    background-image: url('../../assets/dailyb.svg');
     font-family: var(--ff-family);
     display: flex;
     flex-direction: column;
@@ -23,10 +23,12 @@
     text-align: center;
   }
 
-  @media screen and (max-width: 376px) {
+  @media screen and (max-width: 420px) {
     .daily-header {
       font-size: 1.7em;
-      padding-left: 0;
-      padding-right: 0;
+      padding: 1em 0;
+    }
+    .daily-section {
+      background-image: url('../../assets/dailymobile.svg');
     }
   }
