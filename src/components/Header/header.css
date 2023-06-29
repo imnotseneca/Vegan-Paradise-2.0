@@ -11,7 +11,7 @@ nav {
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 11px rgb(10 1 1);
   padding: 10px;
 }
 
@@ -52,12 +52,31 @@ ul {
 }
 
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 667px) {
   .nav-btn {
     display: none;
   }
 }
-@media screen and (max-width: 759px) {
+
+@media screen and (max-width: 892px) {
+  .vegan-logo {
+    width: 60px;
+  }
+
+  ul {
+    font-size: .9em;
+  }
+
+  .navbar-link {
+    padding: 0 1em 0 1em;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 666px) {
 
 
   header {
@@ -86,7 +105,7 @@ ul {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    gap: 5em;
+    gap: 2em;
     padding-bottom: 1em;
     font-size: 1em;
     width: 75%;

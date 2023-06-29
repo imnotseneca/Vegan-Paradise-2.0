@@ -3,6 +3,7 @@ export const headerData = [
     id:1,
     title: "Menu",
     path: "#menu",
+    icon: '<MdOutlineRestaurantMenu/>', 
     cName: "sidebar-nav",
   },
   {

@@ -9,7 +9,7 @@
   line-height: 1.5em;
   text-align: center;
   background-color: rgb(205 203 142 / 66%);
-  box-shadow: 5px 5px 11px rgb(67 11 11 / 82%);
+  box-shadow: 5px 5px 11px rgb(10 1 1);
   padding: 20px;
 }
 
@@ -68,12 +68,25 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 892px) {
   .card-header {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .card-paragraph, .btn-explore {
-    font-size: 1em;
+    font-size: 0.9em;
+  }
+
+  
+}
+
+
+@media screen and (max-width: 480px) {
+  .card-header {
+    font-size: 1.8em;
+  }
+  .card-paragraph, .btn-explore {
+    font-size: .9em;
   }
 
 }

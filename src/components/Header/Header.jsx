@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './header.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { MdOutlineRestaurantMenu } from 'react-icons/md'
 
 export default function Header(props) {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -8,11 +9,14 @@ export default function Header(props) {
   // eslint-disable-next-line react/prop-types
   const navItems = props.headerData.map(element => {
     return (
+      <>
+        <MdOutlineRestaurantMenu />
         <li key={element.id} className='navbar-item'>
         <a href={element.path} className="navbar-link" onClick={() => setMenuOpen(false)}>
           {element.title}
         </a>
-      </li>
+        </li>
+        </>
   )}) 
   
   return (
