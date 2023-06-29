@@ -1,7 +1,7 @@
 /* @import "../../App.css"; */
 
 header {
-  background: #00000054;
+  background: rgb(205 203 142 / 66%);
   font-family: "Poppins", sans-serif;
   font-size: var(--ff-size-m);
 }
@@ -27,11 +27,22 @@ ul {
   font-weight: 700;
 }
 
-.nav-item {
+.navbar-link {
   padding: 0 2em 0 2em;
 }
 
-.nav-item:hover {
+.navbar-item {
+  border-bottom: 1px solid #1b1717;
+  width: 100%;
+  margin: 0 0.5em
+}
+
+.navbar-item:hover {
+  opacity: .9;
+  margin: 0 1em;
+}
+
+.navbar-item:hover {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border-top-left-radius: 5px;
@@ -40,11 +51,6 @@ ul {
   background-color: #841507;
 }
 
-@media screen and (max-width: 420px) {
-  .vegan-logo {
-    width: 40px;
-  }
-}
 
 @media screen and (min-width: 760px) {
   .nav-btn {
@@ -52,6 +58,18 @@ ul {
   }
 }
 @media screen and (max-width: 759px) {
+
+
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+  .vegan-logo {
+    width: 40px;
+  }
   .nav-menu {
     display: none;
   }
@@ -68,9 +86,11 @@ ul {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    gap: 1em;
+    gap: 5em;
     padding-bottom: 1em;
     font-size: 1em;
+    width: 75%;
+    text-align: center;
   }
 
   .nav-btn {
@@ -85,6 +105,27 @@ ul {
   }
 
   .nav-close-btn {
-    margin-bottom: 5em;
+    align-self: flex-end;
+    margin: 0
+  }
+
+  .nav-bar-open {
+    background-color: rgba(205, 203, 142, 0.795);
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: all .45s ease-in;
+    width: 75%;
+    z-index: 1;
+    gap: 5em;
+    
+  }
+
+  .navbar-item:hover {
+    margin: 0;
   }
 }

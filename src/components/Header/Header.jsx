@@ -8,8 +8,8 @@ export default function Header(props) {
   // eslint-disable-next-line react/prop-types
   const navItems = props.headerData.map(element => {
     return (
-        <li key={element.id}>
-        <a href={element.path} className="nav-item" onClick={() => setMenuOpen(false)}>
+        <li key={element.id} className='navbar-item'>
+        <a href={element.path} className="navbar-link" onClick={() => setMenuOpen(false)}>
           {element.title}
         </a>
       </li>
@@ -17,10 +17,10 @@ export default function Header(props) {
   
   return (
     <header>
-      <nav className="nav-bar">
-        <a href="/">
+      <nav className={`nav-bar ${isMenuOpen ? 'nav-bar-open' : ''}`}>
+        {!isMenuOpen ? <a href="/">
           <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597831/Vegan-Paradise/vegan-logo_yvuv0t.png" alt="vegan-logo" className='vegan-logo' />
-        </a>
+        </a> : null}
         <ul className={`nav-menu${isMenuOpen ? ' active' : ''}`}>
           {navItems}
         </ul>
