@@ -1,21 +1,31 @@
 export const headerData = [
   {
-    id:1,
+    id: 0,
+    title: "Home",
+    path: "/",
+    navbar: false,
+    sidebar: true,
+  },
+  {
+    id: 1,
     title: "Menu",
     path: "#menu",
-    icon: '<MdOutlineRestaurantMenu/>', 
-    cName: "sidebar-nav",
+    icon: "<MdOutlineRestaurantMenu/>",
+    navbar: true,
+    sidebar: true,
   },
   {
-    id:2,
+    id: 2,
     title: "Daily",
     path: "#daily",
-    cName: "sidebar-nav",
+    navbar: true,
+    sidebar: true,
   },
   {
-    id:3,
+    id: 3,
     title: "About",
     path: "/about",
-    cName: "sidebar-nav",
+    navbar: true,
+    sidebar: true,
   },
 ];
