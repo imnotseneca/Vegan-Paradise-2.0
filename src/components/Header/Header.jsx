@@ -1,5 +1,5 @@
 import "./header.css";
-import Navbar from "./navBar";
+import Navbar from "./Navbar";
 
 export default function Header(props) {
   // eslint-disable-next-line react/prop-types
