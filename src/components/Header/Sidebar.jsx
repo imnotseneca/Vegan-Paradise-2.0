@@ -4,7 +4,9 @@ import "./sidebar.css";
 export default function Sidebar(props) {
   const navElements = props.navBarData.map((e) => {
     return (
+        
       <li className="aside-item" key={e.id}>
+        
         <a href={e.path}>{e.title}</a>
       </li>
     );
@@ -15,7 +17,6 @@ export default function Sidebar(props) {
         <button className={"nav-btn nav-close-btn"} onClick={props.showSideBar}>
           <FaTimes />
         </button>
-        <a to="#" className=""></a>
       </div>
       <h3 className="aside-header">Vegan paradise</h3>
       <ul className="sidebar-categories">{navElements}</ul>

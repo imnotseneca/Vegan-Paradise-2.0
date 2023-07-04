@@ -18,9 +18,13 @@ ul {
 }
 
 .navbar-item {
-  border-bottom: 1px solid #1b1717;
   width: 100%;
   margin: 0 0.5em;
+  transition: .5s ease;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .navbar-item:hover {
@@ -29,14 +33,12 @@ ul {
 }
 
 .navbar-item:hover {
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+
   color: #f4ead1;
   background-color: #841507;
+  
 }
-@media screen and (max-width: 892px) {
+@media screen and (max-width: 896px) {
   ul {
     font-size: 0.9em;
   }
@@ -73,5 +75,13 @@ ul {
     transition: 0.45s;
     width: 75%;
     z-index: 1;
+  }
+
+  .closed {
+    transition: transform 0.3s ease;
+  }
+  .navbar-item:hover {
+    margin: 0;
+    background-color: transparent;
   }
 }

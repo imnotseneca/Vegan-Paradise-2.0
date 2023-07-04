@@ -15,13 +15,13 @@
 
 .card-header {
   color: #541301;
-  font-size: 4.5em;
+  font-size: 3.5em;
   line-height: 1.2em;
   padding: .5em 0 0.5em 0;
 }
 
 .card-paragraph {
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 1em 0 1em 0;
   line-height: 2em;
 }
@@ -29,7 +29,7 @@
 .btn-explore {
   font-family: 'Poppins';
   background-color: #541301;
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 1em 2em 1em 2em;
   border-radius: 50px;
   text-shadow: none;
@@ -63,13 +63,13 @@
 @media screen and (max-width: 1217px) {
   .card-container {
       text-align: center;
-      margin: 6.5em 1em 5em 1em;
+      margin: 1.5em 1em 2em 1em;
       text-wrap: balance;
   }
 }
 
 
-@media screen and (max-width: 892px) {
+@media screen and (max-width: 896px) {
   .card-header {
     font-size: 2em;
   }

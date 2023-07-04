@@ -19,14 +19,15 @@
     flex-direction: column;
     padding-left: 3rem;
     gap: 3em;
-    position: fixed;
+    position: absolute;
     right: -600px;
     transition: 0.45s;
 }
 
 .active {
-    right: -111px;
+    right: 0px;
 }
+
 .sidebar-categories {
     width: 100%;
     display: flex;

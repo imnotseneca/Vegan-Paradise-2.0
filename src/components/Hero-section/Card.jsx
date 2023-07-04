@@ -3,7 +3,7 @@ import './card.css'
 export default function Card () {
     return (
         <div className='card-container'>
-            <h1 className="card-header">Welcome to the Vegan Paradise</h1>
+            <h1 className="card-header">Welcome to Vegan Paradise</h1>
             <p className='card-paragraph'>
                 Where compassion and flavor unite. Indulge in our curated selection of cruelty-free food crafted to satisfy your ethical cravings. 
 

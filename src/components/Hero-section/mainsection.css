@@ -1,7 +1,7 @@
 /* @import "../../App.css"; */
 
 main {
-    height: 52.1rem;
+    height: 120vh;
     font-family: var(--ff-family);
     display: flex;
     flex-flow: row wrap;
@@ -11,9 +11,11 @@ main {
 
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 666px) {
     main {
-      display: block;
+      display: flex ;
+      align-items: center;
+      height: 100vh;
     }
     .card-paragraph, .btn-explore {
       font-size: 1em;

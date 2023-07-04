@@ -1,14 +1,6 @@
 .menu-section{
-    background-image: url('../../src/assets/menubg.svg');
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #e7e0d7;
     font-family: var(--ff-family);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 .menu-header {
@@ -19,6 +11,8 @@
 
 .menu-container {
     padding: 2em;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 376px) {
