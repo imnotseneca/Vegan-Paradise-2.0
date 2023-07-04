@@ -4,13 +4,15 @@ import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 import {menuData} from "../../data/menuData";
 
-export default function Options() {
+// eslint-disable-next-line react/prop-types
+export default function Options({ handleOptionClick }) {
   const settings = {
+    dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    speed: 1400,
+    autoplay: false,
+    speed: 400,
     autoplaySpeed: 1000,
     cssEase: "linear",
     responsive: [
@@ -42,7 +44,7 @@ export default function Options() {
   };
   const menuLogotypes = menuData.map((element) => {
     return (
-      <div className="options--container" key={element.id}>
+      <div className="options--container" key={element.id} onClick={() => handleOptionClick(element.foodType)}>
         <div className="logo--container">
           <img
             src={element.logo.imageURL}
