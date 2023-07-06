@@ -1,24 +1,23 @@
 /* @import "../../App.css"; */
 
 main {
-    height: 120vh;
-    font-family: var(--ff-family);
+  height: 92vh;
+  font-family: var(--ff-family);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+@media screen and (max-width: 666px) {
+  main {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
     align-items: center;
-    flex: 1;
-
+    height: 100vh;
   }
-
-  @media screen and (max-width: 666px) {
-    main {
-      display: flex ;
-      align-items: center;
-      height: 100vh;
-    }
-    .card-paragraph, .btn-explore {
-      font-size: 1em;
-    }
-  
+  .card-paragraph,
+  .btn-explore {
+    font-size: 1em;
   }
+}

@@ -7,7 +7,7 @@ import {menuData} from "../../data/menuData";
 // eslint-disable-next-line react/prop-types
 export default function Options({ handleOptionClick }) {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,

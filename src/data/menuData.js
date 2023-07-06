@@ -63,7 +63,7 @@ export const menuData = [
       },
     ],
         logo: {
-        imageURL:'https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480377/pizza_ba6yrm.png',
+        imageURL:'https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480377/Vegan-Paradise/pizza_ba6yrm.png',
         alt: 'pizza logo'
     }
   },
@@ -97,7 +97,7 @@ export const menuData = [
       },
     ],
         logo: {
-        imageURL:'https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480377/taco_brxey9.png',
+        imageURL:'https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480377/Vegan-Paradise/taco_brxey9.png',
         alt: 'tacos logo'
     }
   },
@@ -131,7 +131,7 @@ export const menuData = [
       },
     ],
     logo: {
-        imageURL:'https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480425/hot-dog_ewweoa.png',
+        imageURL:'https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480425/Vegan-Paradise/hot-dog_ewweoa.png',
         alt: 'hotdog logo'
     }
   },
