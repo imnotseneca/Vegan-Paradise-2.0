@@ -1,83 +1,6 @@
 import "./foodcard.css";
+import {AiOutlineStar} from 'react-icons/ai'
 
-// export default function Foodcard () {
-//     return (
-//         <div className="foodcard--container">
-//             <div className="singlecard-container">
-//                 <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597560/Vegan-Paradise/foodplate_wqbeqd.png" alt="" className="food-img"/>
-//                 <span>Random foodplate</span>
-//                 <div className="cart-interaction">
-//                     <span>$1</span>
-//                     <div>
-//                         <button className='minus-button'>-</button>
-//                         <span>1</span>
-//                         <button className="add-button">+</button>
-//                     </div>
-//                 </div>
-//             </div>
-//             <div className="singlecard-container">
-//                 <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597560/Vegan-Paradise/foodplate_wqbeqd.png" alt="" className="food-img"/>
-//                 <span>Random foodplate</span>
-//                 <div className="cart-interaction">
-//                     <span>$1</span>
-//                     <div>
-//                         <button className='minus-button'>-</button>
-//                         <span>1</span>
-//                         <button className="add-button">+</button>
-//                     </div>
-//                 </div>
-//             </div>
-//             <div className="singlecard-container">
-//                 <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597560/Vegan-Paradise/foodplate_wqbeqd.png" alt="" className="food-img"/>
-//                 <span>Random foodplate</span>
-//                 <div className="cart-interaction">
-//                     <span>$1</span>
-//                     <div>
-//                         <button className='minus-button'>-</button>
-//                         <span>1</span>
-//                         <button className="add-button">+</button>
-//                     </div>
-//                 </div>
-//             </div>
-//             <div className="singlecard-container">
-//                 <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597560/Vegan-Paradise/foodplate_wqbeqd.png" alt="" className="food-img"/>
-//                 <span>Random foodplate</span>
-//                 <div className="cart-interaction">
-//                     <span>$1</span>
-//                     <div>
-//                         <button className='minus-button'>-</button>
-//                         <span>1</span>
-//                         <button className="add-button">+</button>
-//                     </div>
-//                 </div>
-//             </div>
-//             <div className="singlecard-container">
-//                 <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597560/Vegan-Paradise/foodplate_wqbeqd.png" alt="" className="food-img"/>
-//                 <span>Random foodplate</span>
-//                 <div className="cart-interaction">
-//                     <span>$1</span>
-//                     <div>
-//                         <button className='minus-button'>-</button>
-//                         <span>1</span>
-//                         <button className="add-button">+</button>
-//                     </div>
-//                 </div>
-//             </div>
-//             <div className="singlecard-container">
-//                 <img src="https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597560/Vegan-Paradise/foodplate_wqbeqd.png" alt="" className="food-img"/>
-//                 <span>Random foodplate</span>
-//                 <div className="cart-interaction">
-//                     <span>$1</span>
-//                     <div>
-//                         <button className='minus-button'>-</button>
-//                         <span>1</span>
-//                         <button className="add-button">+</button>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
 
 export default function Foodcard({ menuData, foodType }) {
   const selectedMenuData = menuData.find((data) => data.foodType === foodType);
@@ -99,9 +22,16 @@ export default function Foodcard({ menuData, foodType }) {
       {selectedMenuData.items.map((item, index) => (
         <div className="singlecard-container" key={index}>
           <img src={item.imageURL} alt={item.alt} className="food-img" />
+          <div className="foodcard-description">
           <span>{item.foodName}</span>
+          <span>Price: ${item.price}</span>
+          <div>
+            <span>{item.rating}</span>
+            <AiOutlineStar/>
+          </div>
+          </div>
           <div className="cart-interaction">
-            <span>$1</span>
+  
             <div>
               <button className="minus-button">-</button>
               <span>1</span>
