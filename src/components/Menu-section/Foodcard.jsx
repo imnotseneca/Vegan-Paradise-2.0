@@ -1,8 +1,10 @@
 import "./foodcard.css";
-import {AiOutlineStar} from 'react-icons/ai'
+import { AiFillStar } from "react-icons/ai";
+import { IconContext } from "react-icons";
 
-
+// eslint-disable-next-line react/prop-types
 export default function Foodcard({ menuData, foodType }) {
+  // eslint-disable-next-line react/prop-types
   const selectedMenuData = menuData.find((data) => data.foodType === foodType);
 
   if (!selectedMenuData) {
@@ -23,22 +25,31 @@ export default function Foodcard({ menuData, foodType }) {
         <div className="singlecard-container" key={index}>
           <img src={item.imageURL} alt={item.alt} className="food-img" />
           <div className="foodcard-description">
-          <span>{item.foodName}</span>
-          <span>Price: ${item.price}</span>
-          <div>
-            <span>{item.rating}</span>
-            <AiOutlineStar/>
-          </div>
+            <h4 className="food-name">{item.foodName}</h4>
+            <span className="food-description">{item.foodDesc}</span>
+            <span className="food-price">Price per unit: ${item.price}</span>
+            <div>
+              <span className="food-price">
+                <IconContext.Provider
+                  value={{ color: "yellow", title: "stars rating" }}
+                >
+                  <AiFillStar />
+                  <AiFillStar />
+                  <AiFillStar />
+                  <AiFillStar />
+                  <AiFillStar />
+                </IconContext.Provider>
+              </span>
+            </div>
           </div>
           <div className="cart-interaction">
-  
             <div>
               <button className="minus-button">-</button>
               <span>1</span>
               <button className="add-button">+</button>
             </div>
             <button
-              className="add-button"
+              className="addcart-button"
               onClick={() => handleAddToCart(item)}
             >
               Add to Cart

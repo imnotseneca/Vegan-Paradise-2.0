@@ -20,7 +20,7 @@
   align-items: center;
   padding: 1em 1em;
   background-color: #a52a2a45;
-
+  box-shadow: 0px 3px 32px 1px #4b444496;
 }
 
 .food-img {
@@ -35,17 +35,45 @@
   gap: 10px;
 }
 
+.food-name {
+  font-size: 18px;
+  color: #b22619;
+  border-bottom: 1px solid rgb(44, 42, 42);
+}
+
+.food-price {
+  font-size: 14px;
+}
+
+.food-description {
+  font-size: 12px;
+  color: rgb(90, 86, 86);
+  width: 200px;
+}
+
 .cart-interaction {
   display: flex;
   width: 100%;
   justify-content: space-between;
   gap: 10px;
   align-items: center;
+  padding: 1em;
+  gap: 1em;
 }
 
 .add-button,
 .minus-button {
   background: linear-gradient(to bottom, #fff, #d3d1c1);
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.addcart-button {
+  background: linear-gradient(to bottom, #cb594e, #b22619);
   color: black;
   border: none;
   padding: 5px 10px;
