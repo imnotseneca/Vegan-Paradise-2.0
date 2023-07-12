@@ -1,7 +1,7 @@
 /* @import "../../App.css"; */
 
 main {
-  height: 92vh;
+  height: 95vh;
   font-family: var(--ff-family);
   display: flex;
   flex-flow: row wrap;

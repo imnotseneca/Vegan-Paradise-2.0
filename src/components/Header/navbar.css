@@ -9,12 +9,12 @@ nav {
 ul {
   display: flex;
   align-items: center;
-  font-size: 1.2em;
+  font-size: 1.1npem;
   font-weight: 700;
 }
 
 .navbar-link {
-  padding: 0 2em 0 2em;
+  padding: 0 1.5em 0 1.5em;
 }
 
 .navbar-item {

@@ -9,18 +9,12 @@ header {
   justify-content: space-between;
   align-items: center;
   box-shadow: 5px 5px 11px rgb(10 1 1);
-  padding: 10px;
+  padding: 5px;
 }
 
 .vegan-logo {
-  width: 60px;
+  width: 40px;
   border-radius: 35% 30%;
-}
-
-@media screen and (max-width: 892px) {
-  .vegan-logo {
-    width: 60px;
-  }
 }
 
 @media screen and (max-width: 666px) {
