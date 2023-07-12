@@ -11,6 +11,7 @@
 }
 
 .cartlist {
+  color: #232323;
   width: 60%;
   height: 90%;
   margin: 2rem auto;
@@ -56,6 +57,14 @@
   overflow-y: scroll;
 }
 
+.cartlist-product-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
 .cartlist-product {
   width: 100%;
   background-color: #fff;
@@ -69,7 +78,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 5px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .cartlist-product-info h3 {
@@ -77,18 +86,20 @@
   text-align: center;
   font-weight: 700;
   font-size: 1em;
-  border-bottom: 1px solid silver;  
+  border-bottom: 1px solid silver;
 }
 
 .cartlist-product-info p {
-    padding: 5px 0;
-    text-align: center;
-    font-family: 'Roboto';
-    font-size: .9em;
-    color: rgb(71, 69, 69);
-    text-wrap: balance;
+  padding: 5px 0;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 0.9em;
+  color: rgb(71, 69, 69);
+  text-wrap: balance;
 }
-.cartlist-product-price,.cartlist-count, .remove-btn  {
+.cartlist-product-price,
+.cartlist-count,
+.remove-btn {
   margin: 5px 0;
 }
 
@@ -99,7 +110,7 @@
 }
 
 .checkout-btn {
-  background-color: rgb(77, 165, 42);
+  background-color: var(--clr-primary);
   padding: 10px 20px;
   font-size: 1em;
   color: #fff;
@@ -107,4 +118,9 @@
   margin: 2em 1em;
   border: none;
   border-radius: 5px;
+  text-wrap: balance;
+}
+
+.cartlist-product-image {
+  width: 80px;
 }

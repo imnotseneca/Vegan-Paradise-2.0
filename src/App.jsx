@@ -77,7 +77,7 @@ function App() {
       />
       <CartButton
         onClick={() => setCartVisibility(true)}
-        productCount={productsInCart.length}
+        productCount={productsInCart.reduce((total, product) => Number(total) + Number(product.count), 0)}
       />
       <Home />
       <Service />

@@ -16,6 +16,7 @@ export default function CartList({
         <div className="cartlist-product-info">
           <div className="cartlist-product-description">
             <h3 className="cartlist-product-title">{product.foodName}</h3>
+              <img  className='cartlist-product-image' src={product.imageURL} alt={product.foodName} />
             <p>{product.foodDesc}</p>
           </div>
           <span className="cartlist-product-price">
@@ -68,7 +69,7 @@ export default function CartList({
           )}
           {products.length > 0 && productsCartList}
           {products.length > 0 && (
-            <button className="btn checkout-btn">Proceed to checkout</button>
+            <button className="btn checkout-btn">Complete your order</button>
           )}
         </div>
       </div>

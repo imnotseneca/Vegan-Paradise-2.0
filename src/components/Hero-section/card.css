@@ -25,12 +25,12 @@
   padding: 1em 0 1em 0;
   line-height: 2em;
   font-weight: 700;
+  text-wrap: balance;
 }
 
 .btn-explore {
   font-family: 'Poppins';
   background-color: #541301;
-  font-size: 1em;
   padding: 1em 2em 1em 2em;
   border-radius: 50px;
   text-shadow: none;
@@ -87,7 +87,7 @@
     font-size: 1.8em;
   }
   .card-paragraph, .btn-explore {
-    font-size: .9em;
+    font-size: .8em;
   }
 
 }

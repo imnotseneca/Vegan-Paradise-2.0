@@ -16,8 +16,7 @@ main {
     align-items: center;
     height: 100vh;
   }
-  .card-paragraph,
-  .btn-explore {
+  .card-paragraph {
     font-size: 1em;
   }
 }
