@@ -6,35 +6,38 @@ export const menuData = [
       {
         foodName: "BOMBASTIC",
         foodDesc:
-          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup",
+          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup.",
         price: 5,
         rating: "3.5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508168/Vegan-Paradise/PngItem_28121_iy2y4e.png",
         alt: "menu foodplate",
         stock: 3,
+        id: 1,
       },
       {
-        foodName: "random plate",
+        foodName: "NO-CHICKEN LITTLE",
         foodDesc:
-          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup",
+          "No-chiken fried burger with fresh vegetables, caesar sauce and cheese on top.",
         price: 5,
         rating: "3.5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508166/Vegan-Paradise/PngItem_6817544_k8dqyz.png",
         alt: "menu foodplate",
         stock: 4,
+        id: 2,
       },
       {
-        foodName: "random plate",
+        foodName: "DOUBLE CANNONBALL",
         foodDesc:
-          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup",
+          "Double no-meat burger with lettuce, pickles and purple onion.",
         price: 5,
         rating: "3.5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688509377/PngItem_598867_a0fxjk.png",
         alt: "menu foodplate",
         stock: 4,
+        id: 3,
       },
     ],
     logo: {
@@ -48,37 +51,40 @@ export const menuData = [
     foodType: "Pizzas",
     items: [
       {
-        foodName: "random plate",
+        foodName: "PUT*PARIÓ",
         foodDesc:
-          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup",
+          "Spicy selection with aji put*parió and mustard decoration.",
         price: 5,
         rating: "3.5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250/v1688508730/Vegan-Paradise/PngItem_5192603_c1nijj.png",
         alt: "menu foodplate",
         stock: 3,
+        id: 4,
       },
       {
-        foodName: "random plate",
+        foodName: "MAMMA MIA",
         foodDesc:
-          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup",
+          "Sourdough pizza crust with mozarella and fungi and onion decorations.",
         price: 5,
         rating: "3.5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250/v1688508730/Vegan-Paradise/PngItem_5297163_dnqyeb.png",
         alt: "menu foodplate",
         stock: 4,
+        id: 5,
       },
       {
-        foodName: "random plate",
+        foodName: "BRO-CALLY",
         foodDesc:
-          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup",
+          "Large pizza with delicious red sauce and mozarella, with tomatoes, brocoli and fungi on top.",
         price: 5,
         rating: "3.5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250/v1688508730/Vegan-Paradise/PngItem_5281544_my0b6g.png",
         alt: "menu foodplate",
         stock: 4,
+        id: 6,
       },
     ],
     logo: {
@@ -92,37 +98,40 @@ export const menuData = [
     foodType: "Tacos",
     items: [
       {
-        foodName: "random plate",
+        foodName: "TAQUITO FRESCO",
         foodDesc:
-          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup",
+          "Textured soy mixed with caesar sauce and fresh vegetables on top.",
         price: 5,
         rating: "3.5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508337/Vegan-Paradise/PngItem_708414_ibzvzr.png",
         alt: "menu foodplate",
         stock: 3,
+        id: 7,
       },
       {
-        foodName: "random plate",
+        foodName: "TAQUITO CALIENTE",
         foodDesc:
-          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup",
+          "Textured soy mixed with spicy sauce and fresh vegetables on top.",
         price: 5,
         rating: "3.5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508337/Vegan-Paradise/PngItem_708414_ibzvzr.png",
         alt: "menu foodplate",
         stock: 4,
+        id: 8,
       },
       {
-        foodName: "random plate",
+        foodName: "TAQUITO BOMBA",
         foodDesc:
-          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup",
+          "No-chicken nuggets mixed with vegetables and avocado.",
         price: 5,
         rating: "3.5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508337/Vegan-Paradise/PngItem_1081289_bhyh9v.png",
         alt: "menu foodplate",
         stock: 4,
+        id: 9,
       },
     ],
     logo: {
@@ -136,37 +145,40 @@ export const menuData = [
     foodType: "Hotdogs",
     items: [
       {
-        foodName: "random plate",
+        foodName: "HOLLY DOG",
         foodDesc:
-          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup",
+          "No-meat hotdog with textured soy and caesar sauce. Contains mustard and ketchup.",
         price: 5,
         rating: "3.5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508594/Vegan-Paradise/PngItem_3785447_l1iice.png",
         alt: "menu foodplate",
         stock: 3,
+        id: 10,
       },
       {
-        foodName: "random plate",
+        foodName: "HOT BATHROOM",
         foodDesc:
-          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup",
+          "Explosive choice filled with red sauce, ketchup, wasabi, onion and mustard.",
         price: 5,
         rating: "3.5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508594/Vegan-Paradise/PngItem_692527_sv3ngv.png",
         alt: "menu foodplate",
         stock: 4,
+        id: 11,
       },
       {
-        foodName: "random plate",
+        foodName: "CALLEJERO",
         foodDesc:
-          "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup",
+          "Classic hotdog with seasoned vegetables on top.",
         price: 5,
         rating: "3.5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508594/Vegan-Paradise/PngItem_1534381_c08c6x.png",
         alt: "menu foodplate",
         stock: 4,
+        id: 12,
       },
     ],
     logo: {

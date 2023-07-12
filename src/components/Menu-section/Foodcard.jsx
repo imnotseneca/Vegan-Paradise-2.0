@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 import "./foodcard.css";
 import { AiFillStar } from "react-icons/ai";
 import { IconContext } from "react-icons";
 
 // eslint-disable-next-line react/prop-types
-export default function Foodcard({ menuData, foodType }) {
+export default function Foodcard({ menuData, foodType, handleAddToCart, productsInCart }) {
   // eslint-disable-next-line react/prop-types
   const selectedMenuData = menuData.find((data) => data.foodType === foodType);
 
@@ -14,11 +15,7 @@ export default function Foodcard({ menuData, foodType }) {
       </div>
     );
   }
-
-  const handleAddToCart = (item) => {
-    // Implement your logic for adding the item to the cart here
-    console.log(`Added ${item.foodName} to cart`);
-  };
+  
   return (
     <div className="foodcard--container">
       {selectedMenuData.items.map((item, index) => (
@@ -43,11 +40,6 @@ export default function Foodcard({ menuData, foodType }) {
             </div>
           </div>
           <div className="cart-interaction">
-            <div>
-              <button className="minus-button">-</button>
-              <span>1</span>
-              <button className="add-button">+</button>
-            </div>
             <button
               className="addcart-button"
               onClick={() => handleAddToCart(item)}

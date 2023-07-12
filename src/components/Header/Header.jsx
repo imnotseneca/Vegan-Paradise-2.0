@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "./header.css";
 import Navbar from "./Navbar";
 
