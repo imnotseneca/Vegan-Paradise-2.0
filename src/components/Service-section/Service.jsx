@@ -4,7 +4,7 @@ import {processData} from '../../data/processData'
 
 export default function Service () {
     return (
-        <section className="service-section">
+        <section id="service" className="service-section">
             <h2 className="service-header">Service process</h2>
             <div className="process-container">
             <Process 
