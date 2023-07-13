@@ -1,20 +1,27 @@
-.service-section{
+.service-section {
+  background-color: #e7e0d7;
+  font-family: var(--ff-family);
+}
+
+.service-header {
+  text-align: center;
+  font-size: 2em;
+  padding: 2em;
+}
+
+@media screen and (max-width: 672px) {
+  .service-header {
+    font-size: 1.7em;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .service-section {
     background-color: #e7e0d7;
     font-family: var(--ff-family);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
-
-  .service-header {
-    text-align: center;
-    font-size: 2em;
-    padding: 2em;
-  }
-
-
-  @media screen and (max-width: 376px) {
-      .service-header {
-        font-size: 1.7em;
-        padding-left: 0;
-        padding-right: 0;
-
-      }
-  }
+}
