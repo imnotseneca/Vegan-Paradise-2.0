@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
 import "./header.css";
 import Navbar from "./Navbar";
+import CartButton from '../Cart/CartButton'
 
-export default function Header(props) {
+export default function Header({ headerData, onClick, productCount }) {
   // eslint-disable-next-line react/prop-types
   return (
     <header>
@@ -13,7 +14,12 @@ export default function Header(props) {
           className="vegan-logo"
         />
       </a>
-      <Navbar props={props.headerData} />
+      <Navbar
+        headerData={headerData}
+        onClick={onClick}
+        productCount={productCount}
+      />
+      <CartButton onClick={onClick} productCount={productCount} />
     </header>
   );
 }

@@ -1,9 +1,12 @@
+/* eslint-disable react/prop-types */
 import Hero from "../components/Hero-section/Hero";
 
-export default function Home () {
+export default function Home ({ onClick, productCount }) {
     return (
         <>
-        <Hero/>
+        <Hero
+        onClick={onClick}
+        productCount={productCount}/>
         </>
     )
 }

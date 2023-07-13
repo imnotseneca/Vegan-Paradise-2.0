@@ -1,11 +1,14 @@
+/* eslint-disable react/prop-types */
+import { useState } from "react";
 import "./options.css";
 import Slider from "react-slick";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
-import {menuData} from "../../data/menuData";
+import { menuData } from "../../data/menuData";
 
-// eslint-disable-next-line react/prop-types
 export default function Options({ handleOptionClick }) {
+  const [selectedOption, setSelectedOption] = useState(null);
+
   const settings = {
     dots: false,
     infinite: true,
@@ -42,9 +45,21 @@ export default function Options({ handleOptionClick }) {
       },
     ],
   };
+
+  const handleOptionSelection = (foodType) => {
+    setSelectedOption(foodType);
+    handleOptionClick(foodType);
+  };
+
   const menuLogotypes = menuData.map((element) => {
+    const isActive = selectedOption === element.foodType;
+
     return (
-      <div className="options--container" key={element.id} onClick={() => handleOptionClick(element.foodType)}>
+      <div
+        className={`options--container ${isActive ? "active" : ""}`}
+        key={element.id}
+        onClick={() => handleOptionSelection(element.foodType)}
+      >
         <div className="logo--container">
           <img
             src={element.logo.imageURL}
@@ -56,5 +71,6 @@ export default function Options({ handleOptionClick }) {
       </div>
     );
   });
+
   return <Slider {...settings}>{menuLogotypes}</Slider>;
 }

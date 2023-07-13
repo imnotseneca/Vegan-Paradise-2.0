@@ -6,7 +6,6 @@
     background-image: url('../../assets/bg2.svg');
     background-position: center center;
     background-repeat: no-repeat;
-    width: 250px;
 }
 
 .process-img {
@@ -15,8 +14,10 @@
 }
 
 .process-description {
-    font-family: 'Poppins';
-    padding-top: 3em;
+    color: #453b3b;
+    font-family: var(--ff-family-sec);
+    padding: 1em;
+    text-wrap: balance;
 }
 
 .slick-slide img {

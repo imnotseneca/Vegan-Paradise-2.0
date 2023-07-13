@@ -6,6 +6,7 @@
   --clr-tertiary: #369322;
   --clr-quaternary: #7A1939;
   --ff-family: 'Roboto', sans-serif;
+  --ff-family-sec: 'Poppins', sans-serif;
   --ff-size-sm: 0.8em;
   --ff-size-m: 1.2em;
   --ff-size-l: 1.5em;
@@ -56,11 +57,11 @@ body {
 /* BASE STYLES
 /*******************************************/
 
-h1 {
-  font-family: var(--ff-primary);
+h1, h2 {
+  font-family: var(--ff-family-sec);
   font-weight: 600;
   line-height: 1;
-  font-size:3em;
+  font-size: 2em;
 }
 
 h3 {

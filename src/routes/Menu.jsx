@@ -25,7 +25,7 @@ import {useState} from 'react'
 //   );
 // }
 // eslint-disable-next-line react/prop-types
-export default function Menu({handleAddToCart, productsInCart}) {
+export default function Menu({handleAddToCart, productsInCart, isDisabled}) {
   const [foodType, setFoodType] = useState("Hamburguers");
 
   const handleOptionClick = (selectedFoodType) => {
@@ -38,7 +38,7 @@ export default function Menu({handleAddToCart, productsInCart}) {
       <p className='menu-paragraph'>Slide and click on logos to see our selection!</p>
       <Options menuData={menuData} handleOptionClick={handleOptionClick} />
       <div className="menu-container">
-        <Foodcard menuData={menuData} foodType={foodType} handleAddToCart={handleAddToCart} productsInCart={productsInCart} />
+        <Foodcard menuData={menuData} foodType={foodType} handleAddToCart={handleAddToCart} productsInCart={productsInCart} isDisabled={isDisabled}/>
       </div>
     </section>
   );

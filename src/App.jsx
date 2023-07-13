@@ -11,11 +11,27 @@ import { useState, useEffect } from "react";
 
 function App() {
   const [cartVisibility, setCartVisibility] = useState(false);
-  const [productsInCart, setProductsInCart] = useState(JSON.parse(localStorage.getItem('cartlist')) || []);
+  const [productsInCart, setProductsInCart] = useState(
+    JSON.parse(localStorage.getItem("cartlist")) || []
+  );
+
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
-    localStorage.setItem('cartlist', JSON.stringify(productsInCart))
-  }, [productsInCart])
+    const handleWindowResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("cartlist", JSON.stringify(productsInCart));
+  }, [productsInCart]);
 
   /*
   The 'addProductToCart' function checks if the 'item' being added already exists in the 'productsInCart' state by searching for a product with the same id. If it finds a matching product, it updates the quantity by mapping over the productsInCart array and incrementing the count of the matching product. If the product doesn't exist in the cart, it creates a new product object with a count of 1 and adds it to the productsInCart array.
@@ -53,9 +69,11 @@ function App() {
 
   const onProductRemove = (product) => {
     setProductsInCart((oldState) => {
-      const productsIndex = oldState.findIndex((item) => item.id === product.id);
+      const productsIndex = oldState.findIndex(
+        (item) => item.id === product.id
+      );
       if (productsIndex !== -1) {
-        oldState.splice(productsIndex, 1)
+        oldState.splice(productsIndex, 1);
       }
       return [...oldState];
     });
@@ -75,17 +93,27 @@ function App() {
         onQuantityChange={onQuantityChange}
         onProductRemove={onProductRemove}
       />
+      {windowWidth < 640 ?
       <CartButton
         onClick={() => setCartVisibility(true)}
-        productCount={productsInCart.reduce((total, product) => Number(total) + Number(product.count), 0)}
+        productCount={productsInCart.reduce(
+          (total, product) => Number(total) + Number(product.count),
+          0
+        )}
+      /> : null}
+      <Home
+        onClick={() => setCartVisibility(true)}
+        productCount={productsInCart.reduce(
+          (total, product) => Number(total) + Number(product.count),
+          0
+        )}
       />
-      <Home />
       <Service />
-      <Daily />
       <Menu
         handleAddToCart={addProductToCart}
         productsInCart={productsInCart}
       />
+      <Daily />
       <Footer />
     </>
   );

@@ -1,11 +1,13 @@
+/* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import Sidebar from "./Sidebar";
 import "./navbar.css";
 
-export default function Navbar(props) {
+export default function Navbar({headerData }) {
   const [sideBar, setSideBar] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  console.log(headerData)
 
   const showSideBar = () => setSideBar(!sideBar);
 
@@ -22,7 +24,7 @@ export default function Navbar(props) {
   }, []);
 
   // eslint-disable-next-line react/prop-types
-  const navItems = props.props.map((element) => {
+  const navItems = headerData.map((element) => {
     if (element.navbar) {
       return (
         <li key={element.id} className="navbar-item">
@@ -49,7 +51,7 @@ export default function Navbar(props) {
           ) : (
             <Sidebar
               // eslint-disable-next-line react/prop-types
-              navBarData={props.props}
+              navBarData={headerData}
               sideBar={sideBar}
               showSideBar={showSideBar}
             />
