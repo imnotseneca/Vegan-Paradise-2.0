@@ -7,8 +7,6 @@ import "./navbar.css";
 export default function Navbar({headerData }) {
   const [sideBar, setSideBar] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  console.log(headerData)
-
   const showSideBar = () => setSideBar(!sideBar);
 
   useEffect(() => {
