@@ -108,6 +108,7 @@
   }
   .foodcard--container {
     flex-direction: column;
+    padding: 1em;
   }
   .addcart-button:hover {
     opacity:9;
