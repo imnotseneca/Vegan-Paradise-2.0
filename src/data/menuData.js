@@ -10,7 +10,7 @@ export const menuData = [
         price: 5,
         rating: "3.5",
         imageURL:
-          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508168/Vegan-Paradise/PngItem_28121_iy2y4e.png",
+          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508168/Vegan-Paradise/PngItem_28121_iy2y4e.webp",
         alt: "menu foodplate",
         stock: 3,
         id: 1,
@@ -22,7 +22,7 @@ export const menuData = [
         price: 5,
         rating: "3.5",
         imageURL:
-          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508166/Vegan-Paradise/PngItem_6817544_k8dqyz.png",
+          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508166/Vegan-Paradise/PngItem_6817544_k8dqyz.webp",
         alt: "menu foodplate",
         stock: 4,
         id: 2,
@@ -34,7 +34,7 @@ export const menuData = [
         price: 5,
         rating: "3.5",
         imageURL:
-          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688509377/PngItem_598867_a0fxjk.png",
+          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688509377/PngItem_598867_a0fxjk.webp",
         alt: "menu foodplate",
         stock: 4,
         id: 3,
@@ -57,7 +57,7 @@ export const menuData = [
         price: 5,
         rating: "3.5",
         imageURL:
-          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250/v1688508730/Vegan-Paradise/PngItem_5192603_c1nijj.png",
+          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250/v1688508730/Vegan-Paradise/PngItem_5192603_c1nijj.webp",
         alt: "menu foodplate",
         stock: 3,
         id: 4,
@@ -69,7 +69,7 @@ export const menuData = [
         price: 5,
         rating: "3.5",
         imageURL:
-          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250/v1688508730/Vegan-Paradise/PngItem_5297163_dnqyeb.png",
+          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250/v1688508730/Vegan-Paradise/PngItem_5297163_dnqyeb.webp",
         alt: "menu foodplate",
         stock: 4,
         id: 5,
@@ -81,7 +81,7 @@ export const menuData = [
         price: 5,
         rating: "3.5",
         imageURL:
-          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250/v1688508730/Vegan-Paradise/PngItem_5281544_my0b6g.png",
+          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250/v1688508730/Vegan-Paradise/PngItem_5281544_my0b6g.webp",
         alt: "menu foodplate",
         stock: 4,
         id: 6,
@@ -89,7 +89,7 @@ export const menuData = [
     ],
     logo: {
       imageURL:
-        "https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480377/Vegan-Paradise/pizza_ba6yrm.png",
+        "https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480377/Vegan-Paradise/pizza_ba6yrm.webp",
       alt: "pizza logo",
     },
   },
@@ -104,7 +104,7 @@ export const menuData = [
         price: 5,
         rating: "3.5",
         imageURL:
-          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508337/Vegan-Paradise/PngItem_708414_ibzvzr.png",
+          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508337/Vegan-Paradise/PngItem_708414_ibzvzr.webp",
         alt: "menu foodplate",
         stock: 3,
         id: 7,
@@ -116,7 +116,7 @@ export const menuData = [
         price: 5,
         rating: "3.5",
         imageURL:
-          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508337/Vegan-Paradise/PngItem_708414_ibzvzr.png",
+          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508337/Vegan-Paradise/PngItem_708414_ibzvzr.webp",
         alt: "menu foodplate",
         stock: 4,
         id: 8,
@@ -128,7 +128,7 @@ export const menuData = [
         price: 5,
         rating: "3.5",
         imageURL:
-          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508337/Vegan-Paradise/PngItem_1081289_bhyh9v.png",
+          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508337/Vegan-Paradise/PngItem_1081289_bhyh9v.webp",
         alt: "menu foodplate",
         stock: 4,
         id: 9,
@@ -136,7 +136,7 @@ export const menuData = [
     ],
     logo: {
       imageURL:
-        "https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480377/Vegan-Paradise/taco_brxey9.png",
+        "https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480377/Vegan-Paradise/taco_brxey9.webp",
       alt: "tacos logo",
     },
   },
@@ -151,7 +151,7 @@ export const menuData = [
         price: 5,
         rating: "3.5",
         imageURL:
-          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508594/Vegan-Paradise/PngItem_3785447_l1iice.png",
+          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508594/Vegan-Paradise/PngItem_3785447_l1iice.webp",
         alt: "menu foodplate",
         stock: 3,
         id: 10,
@@ -163,7 +163,7 @@ export const menuData = [
         price: 5,
         rating: "3.5",
         imageURL:
-          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508594/Vegan-Paradise/PngItem_692527_sv3ngv.png",
+          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508594/Vegan-Paradise/PngItem_692527_sv3ngv.webp",
         alt: "menu foodplate",
         stock: 4,
         id: 11,
@@ -175,7 +175,7 @@ export const menuData = [
         price: 5,
         rating: "3.5",
         imageURL:
-          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508594/Vegan-Paradise/PngItem_1534381_c08c6x.png",
+          "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508594/Vegan-Paradise/PngItem_1534381_c08c6x.webp",
         alt: "menu foodplate",
         stock: 4,
         id: 12,
@@ -183,7 +183,7 @@ export const menuData = [
     ],
     logo: {
       imageURL:
-        "https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480425/Vegan-Paradise/hot-dog_ewweoa.png",
+        "https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480425/Vegan-Paradise/hot-dog_ewweoa.webp",
       alt: "hotdog logo",
     },
   },
