@@ -64,6 +64,8 @@ export default function Options({ handleOptionClick }) {
           <img
             src={element.logo.imageURL}
             alt={element.logo.alt}
+            width={100}
+            height={100}
             className="option--img"
           />
           <p>{element.foodText}</p>

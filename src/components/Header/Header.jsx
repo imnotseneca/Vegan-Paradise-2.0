@@ -9,7 +9,9 @@ export default function Header({ headerData, onClick, productCount }) {
     <header>
       <a href="/">
         <img
-          src="https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_40,h_40/v1686597831/Vegan-Paradise/vegan-logo_yvuv0t.webp"
+          src="https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad/v1686597831/Vegan-Paradise/vegan-logo_yvuv0t.webp"
+          width={53}
+          height={53}
           alt="vegan-logo"
           className="vegan-logo"
         />
