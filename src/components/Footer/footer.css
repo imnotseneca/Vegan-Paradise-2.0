@@ -42,6 +42,12 @@ footer {
 .footer-linkedin-anchor:hover {
   opacity: 1;
 }
+.social-icon{
+  opacity: 0.8;
+}
+.social-icon:hover {
+  opacity: 1;
+}
 
 
 .footer-form {
@@ -109,6 +115,9 @@ footer {
       margin: 0;
     }
     .footer-linkedin-anchor:hover {
+      opacity: 1;
+    }
+    .social-icon:hover{
       opacity: 1;
     }
 }

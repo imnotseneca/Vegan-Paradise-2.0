@@ -16,9 +16,7 @@ ul {
 .navbar-link {
   padding: 0 1.5em 0 1.5em;
   transition: .5s ease;
-  border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 

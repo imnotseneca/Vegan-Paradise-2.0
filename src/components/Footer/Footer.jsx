@@ -12,9 +12,9 @@ export default function Footer () {
             </form>
             </div>
             <div className="social-media-icons">
-                <SocialIcon url='mailto:brunocorraodev@gmail.com' bgColor='black'/>
-                <SocialIcon url='https://www.linkedin.com/in/bruno-corrao/' bgColor='black'/>
-                <SocialIcon url='https://github.com/imnotseneca' bgColor='black'/>
+                <SocialIcon url='mailto:brunocorraodev@gmail.com' bgColor='black' className='social-icon'/>
+                <SocialIcon url='https://www.linkedin.com/in/bruno-corrao/' bgColor='black'className='social-icon'/>
+                <SocialIcon url='https://github.com/imnotseneca' bgColor='black'className='social-icon'/>
             </div>
             <div className='copyright'>
                 <span className='footer-text'><a href='https://www.linkedin.com/in/bruno-corrao/' className='footer-linkedin-anchor'>Bruno Corrao</a>. @ All rights reserved.</span>

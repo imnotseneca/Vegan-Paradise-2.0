@@ -8,6 +8,11 @@
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   font-size: 20px;
   cursor: pointer;
+  opacity: 0.9;
+}
+
+.cart-button:hover {
+  opacity: 1;
 }
 
 .cart-button.has-products {
@@ -47,6 +52,7 @@
       font-size: 20px;
       cursor: pointer;
       z-index: 10;
+      opacity: 1;
     }
   
     .cart-button.has-products {

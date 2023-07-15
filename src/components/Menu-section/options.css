@@ -12,6 +12,10 @@
     padding: 10px;
     width: 100px;
     cursor: pointer;
+    opacity: 0.9;
+}
+.option--img:hover {
+    opacity: 1;
 }
 
 .logo--container {
@@ -21,6 +25,9 @@
 @media screen and (max-width: 666px) {
     .options--container {
         margin: 0;
+    }
+    .option--img {
+        opacity: 1;
     }
     
 }
