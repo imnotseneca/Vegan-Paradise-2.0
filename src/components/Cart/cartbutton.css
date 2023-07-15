@@ -31,7 +31,7 @@
   font-weight: bold;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 896px) {
 
   .cart-button {
       position: fixed;

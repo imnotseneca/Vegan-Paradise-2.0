@@ -15,7 +15,7 @@ header {
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 896px) {
   header {
     position:initial;
 

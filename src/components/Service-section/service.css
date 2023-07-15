@@ -13,7 +13,7 @@
   padding: 2em;
 }
 
-@media screen and (max-width: 672px) {
+@media screen and (max-width: 896px) {
   .service-header {
     font-size: 1.7em;
     padding-left: 0;
@@ -23,9 +23,16 @@
   .service-section {
     background-color: #e7e0d7;
     font-family: var(--ff-family);
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 414px) {
+
+  .service-section {
+    height: 100vh;
   }
 }

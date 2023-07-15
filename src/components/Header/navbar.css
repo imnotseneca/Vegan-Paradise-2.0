@@ -46,9 +46,6 @@ ul {
   .navbar-link {
     padding: 0 1em 0 1em;
   }
-}
-
-@media screen and (max-width: 666px) {
   .nav-btn {
     color: #232323;
     background-color: transparent;
@@ -76,6 +73,8 @@ ul {
     transition: 0.45s;
     width: 75%;
     z-index: 1;
+    overflow: scroll;
+}
   }
 
   .closed {
@@ -85,4 +84,4 @@ ul {
     margin: 0;
     background-color: transparent;
   }
-}
+

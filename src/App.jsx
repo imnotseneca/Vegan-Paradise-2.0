@@ -93,7 +93,7 @@ function App() {
         onQuantityChange={onQuantityChange}
         onProductRemove={onProductRemove}
       />
-      {windowWidth < 640 ?
+      {windowWidth < 896 ?
       <CartButton
         onClick={() => setCartVisibility(true)}
         productCount={productsInCart.reduce(

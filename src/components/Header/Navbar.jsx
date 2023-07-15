@@ -36,7 +36,7 @@ export default function Navbar({headerData }) {
 
   return (
     <>
-      {windowWidth > 640 ? (
+      {windowWidth > 896 ? (
         <nav className="nav-bar">
           <ul className="nav-menu">{navItems}</ul>
         </nav>
