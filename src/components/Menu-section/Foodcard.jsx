@@ -22,7 +22,7 @@ export default function Foodcard({ menuData, foodType, handleAddToCart, products
         <div className="singlecard-container" key={index}>
           <img src={item.imageURL} width={250} height={200} alt={item.alt} className="food-img" />
           <div className="foodcard-description">
-            <h4 className="food-name">{item.foodName}</h4>
+            <h3 className="food-name">{item.foodName}</h3>
             <span className="food-description">{item.foodDesc}</span>
             <span className="food-price">Price per unit: ${item.price}</span>
             <div>
