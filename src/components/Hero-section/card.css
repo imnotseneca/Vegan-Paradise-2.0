@@ -7,9 +7,10 @@
   max-width: 700px;
   line-height: 1.5em;
   text-align: center;
-  background-color: rgb(205 203 142 / 66%);
+  background-color: #dbd5cab8;
   box-shadow: 5px 5px 11px rgb(10 1 1);
   padding: 20px;
+  font-weight: bold;
 }
 
 .card-header {

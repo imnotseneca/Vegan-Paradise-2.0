@@ -2,7 +2,7 @@
 
 
 footer {
-    background-image: url('../../assets/footerbg.svg');
+    background-image: url('https://res.cloudinary.com/dd8ikgzov/image/upload/v1689434868/Vegan-Paradise/wepik-export-20230715152736L24j_sniplq.webp');
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
@@ -14,14 +14,15 @@ footer {
 }
 
 .footer--container {
-    background-color: #e2c794b8;
-    border-radius: 10%;
+    background-color: #dbd5cab8;
+    border-radius: 2%;
     margin: 2em 0 2em 0;
     padding: 2em 0 2em 0;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     text-align: center;
+    text-wrap:balance;
 }
 .footer-header {
     font-size: 2em;
@@ -64,7 +65,7 @@ footer {
   }
   
   .footer-form button[type="submit"] {
-    background-color: #841507;
+    background-color: #541301;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -95,9 +96,15 @@ footer {
 
 @media screen and (max-width: 414px) {
 
+    footer {
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: auto;
+    }
     .footer--container {
       margin: 2em 10px 2em 10px;
       padding: 2em 0 2em 0;
+      
     }
     .footer-header {
         font-size: 1.2em;

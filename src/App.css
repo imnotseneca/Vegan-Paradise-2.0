@@ -58,17 +58,13 @@ body {
 /* BASE STYLES
 /*******************************************/
 
-h1, h2 {
+h1, h2, h3 {
+  color: #232323;
   font-weight: 600;
   line-height: 1;
   font-size: 2em;
+  font-weight: bold;
 }
-
-h3 {
-  font-size: 1,6em;
-  color: var(--clr-primary);
-}
-
 
 a {
   text-decoration: none;

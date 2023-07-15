@@ -1,7 +1,7 @@
 /* @import "../../App.css"; */
 
 header {
-  background: rgb(205 203 142 / 66%);
+  background: #dbd5cab8;
   font-size: var(--ff-size-m);
   width: 100%;
   display: flex;
