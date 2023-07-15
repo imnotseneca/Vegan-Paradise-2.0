@@ -17,6 +17,8 @@ export default function Options({ handleOptionClick }) {
     autoplay: false,
     speed: 400,
     autoplaySpeed: 1000,
+    centerMode: true,
+    centerPadding: '50px',
     cssEase: "linear",
     responsive: [
       {

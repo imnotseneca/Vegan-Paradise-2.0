@@ -43,6 +43,7 @@ export default function Foodcard({ menuData, foodType, handleAddToCart, products
             <button
               className="addcart-button"
               onClick={() => handleAddToCart(item)}
+              aria-label='Add-ToCart-Button'
             >
               Add to Cart
             </button>

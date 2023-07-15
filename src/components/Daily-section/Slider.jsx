@@ -101,8 +101,8 @@ export default function Slider() {
         </p>
       </CarouselContainer>
       <CarouselBtnContainer>
-        <CarouselBtn onClick={previous}>{"<"}</CarouselBtn>
-        <CarouselBtn onClick={next}>{">"}</CarouselBtn>
+        <CarouselBtn onClick={previous} aria-label='Previous-button'>{"<"}</CarouselBtn>
+        <CarouselBtn onClick={next} aria-label='Next-button'>{">"}</CarouselBtn>
       </CarouselBtnContainer>
     </>
   );

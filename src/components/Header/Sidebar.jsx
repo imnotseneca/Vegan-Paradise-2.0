@@ -15,7 +15,7 @@ export default function Sidebar(props) {
   return (
     <aside className={props.sideBar ? 'aside-container active' : "aside-container"}>
       <div className="close-sidebar active">
-        <button className={"nav-btn nav-close-btn"} onClick={props.showSideBar}>
+        <button className={"nav-btn nav-close-btn"} onClick={props.showSideBar} aria-label='close-sidebar-button'>
           <FaTimes />
         </button>
       </div>

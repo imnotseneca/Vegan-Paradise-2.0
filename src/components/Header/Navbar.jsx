@@ -43,7 +43,7 @@ export default function Navbar({headerData }) {
       ) : (
         <nav className={sideBar ? "nav-bar-open" : "nav-bar closed"}>
           {!sideBar ? (
-            <button className="nav-btn" onClick={showSideBar}>
+            <button className="nav-btn" onClick={showSideBar} aria-label='side-bar-button'>
               <FaBars />
             </button>
           ) : (

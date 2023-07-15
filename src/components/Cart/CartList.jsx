@@ -40,7 +40,9 @@ export default function CartList({
           </select>
           <button
             className="btn remove-btn"
-            onClick={() => onProductRemove(product)}
+            onClick={() => onProductRemove(product)
+            }
+            aria-label='Remove-button'
           >
             <RiDeleteBin6Line size={14} />
           </button>
@@ -56,7 +58,7 @@ export default function CartList({
       <div className="cartlist">
         <div className="cartlist-header">
           <h2>Cart List</h2>
-          <button className="btn close-btn" onClick={onClose}>
+          <button className="btn close-btn" onClick={onClose} aria-label='Close-button'>
             <AiFillCloseCircle size={24} />
           </button>
         </div>
@@ -69,7 +71,7 @@ export default function CartList({
           )}
           {products.length > 0 && productsCartList}
           {products.length > 0 && (
-            <button className="btn checkout-btn">Complete your order</button>
+            <button className="btn checkout-btn" aria-label='checkout-button'>Complete your order</button>
           )}
         </div>
       </div>
