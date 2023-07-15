@@ -3,7 +3,8 @@ import Slider from "react-slick";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 
-export default function Process(props) {
+// eslint-disable-next-line react/prop-types
+export default function Process({ processData }) {
   // eslint-disable-next-line react/prop-types
   const settings = {
     dots: true,
@@ -42,7 +43,7 @@ export default function Process(props) {
     ],
   };
   // eslint-disable-next-line react/prop-types
-  const processList = props.processData.map((element) => {
+  const processList = processData.map((element) => {
     return (
       <>
       <div className="process-item" key={element.id}>

@@ -42,7 +42,7 @@ export const menuData = [
     ],
     logo: {
       imageURL:
-        "https://res.cloudinary.com/dd8ikgzov/image/upload/v1686597831/Vegan-Paradise/option_scwtwa.svg",
+        "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_100,h_100/v1686597831/Vegan-Paradise/option_scwtwa.svg",
       alt: "hamburguer logo",
     },
   },
@@ -89,7 +89,7 @@ export const menuData = [
     ],
     logo: {
       imageURL:
-        "https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480377/Vegan-Paradise/pizza_ba6yrm.webp",
+        "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_100,h_100/v1688480377/Vegan-Paradise/pizza_ba6yrm.webp",
       alt: "pizza logo",
     },
   },
@@ -136,7 +136,7 @@ export const menuData = [
     ],
     logo: {
       imageURL:
-        "https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480377/Vegan-Paradise/taco_brxey9.webp",
+        "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_100,h_100/v1688480377/Vegan-Paradise/taco_brxey9.webp",
       alt: "tacos logo",
     },
   },
@@ -183,7 +183,7 @@ export const menuData = [
     ],
     logo: {
       imageURL:
-        "https://res.cloudinary.com/dd8ikgzov/image/upload/v1688480425/Vegan-Paradise/hot-dog_ewweoa.webp",
+        "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_100,h_100/v1688480425/Vegan-Paradise/hot-dog_ewweoa.webp",
       alt: "hotdog logo",
     },
   },

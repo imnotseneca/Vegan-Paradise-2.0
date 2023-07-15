@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./routes/Home";
 import Service from "./components/Service-section/Service";
-import Daily from "./components/Daily-section/Daily";
+// import Daily from "./components/Daily-section/Daily";
 import Menu from "./routes/Menu";
 import Footer from "./components/Footer/Footer";
 import CartButton from "./components/Cart/CartButton";
@@ -113,7 +113,7 @@ function App() {
         handleAddToCart={addProductToCart}
         productsInCart={productsInCart}
       />
-      <Daily />
+      {/* <Daily /> */}
       <Footer />
     </>
   );
