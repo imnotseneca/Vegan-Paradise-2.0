@@ -2,7 +2,6 @@
 
 header {
   background: rgb(205 203 142 / 66%);
-  font-family: "Poppins", sans-serif;
   font-size: var(--ff-size-m);
   width: 100%;
   display: flex;

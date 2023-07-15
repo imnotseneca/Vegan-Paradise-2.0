@@ -1,6 +1,5 @@
 .menu-section{
     background-color: #c7c1b9;
-    font-family: var(--ff-family);
 }
 
 .menu-header {
@@ -12,7 +11,6 @@
     color: #453b3b;
     text-align: center;
     font-size: 1em;
-    font-family: 'Poppins';
     padding: 1em 1em;
 }
 

@@ -15,7 +15,6 @@
 
 .process-description {
     color: #453b3b;
-    font-family: var(--ff-family-sec);
     padding: 1em;
     text-wrap: balance;
 }

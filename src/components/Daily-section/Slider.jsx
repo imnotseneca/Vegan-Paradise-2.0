@@ -18,7 +18,6 @@ const CarouselContainer = styled.div`
   justify-content: space-evenly;
   align-items: center;
   gap: 2em;
-  font-family: "Poppins";
   opacity: 0;
   transition: 1s;
   &.loaded {

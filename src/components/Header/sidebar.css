@@ -2,7 +2,6 @@
 /* BASE STYLES
 /*******************************************/
 .sidebar-title {
-    font-family: var(--ff-primary);
     font-size: var(--fs-500);
     text-transform: uppercase;
     letter-spacing: 1px;

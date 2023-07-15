@@ -24,7 +24,6 @@ footer {
     text-align: center;
 }
 .footer-header {
-    font-family: 'Roboto';
     font-size: 2em;
     padding: 1em 0.5em 0.5em 0.5em;
     text-wrap: balance;
@@ -32,7 +31,6 @@ footer {
 }
 
 .footer-text {
-  font-family: 'Roboto';
   font-weight: bold;
 }
 .footer-linkedin-anchor {
@@ -58,7 +56,6 @@ footer {
   }
   
   .footer-form input[type="text"] {
-    font-family: 'Roboto';
     padding: 10px;
     border: none;
     border-radius: 4px;

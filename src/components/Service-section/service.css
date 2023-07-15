@@ -1,7 +1,6 @@
 .service-section {
   height: 100vh;
   background-color: #e7e0d7;
-  font-family: var(--ff-family);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -22,7 +21,6 @@
 
   .service-section {
     background-color: #e7e0d7;
-    font-family: var(--ff-family);
     height: auto;
     display: flex;
     flex-direction: column;

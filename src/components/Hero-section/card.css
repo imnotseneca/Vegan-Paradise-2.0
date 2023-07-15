@@ -1,6 +1,5 @@
 /* @import "../../App.css"; */
 
-
 .card-container {
   display: flex;
   flex-flow: column wrap;
@@ -15,9 +14,11 @@
 
 .card-header {
   color: #541301;
-  font-size: 2.5em;
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
   line-height: 1.2em;
-  padding: .5em 0 0.5em 0;
+  padding: 0.5em 0 0.5em 0;
 }
 
 .card-paragraph {
@@ -29,7 +30,6 @@
 }
 
 .btn-explore {
-  font-family: 'Poppins';
   background-color: #541301;
   padding: 1em 2em 1em 2em;
   border-radius: 50px;
@@ -45,7 +45,7 @@
 }
 
 .btn-explore:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
@@ -60,34 +60,30 @@
   left: 0;
 }
 
-
 @media screen and (max-width: 1217px) {
   .card-container {
-      text-align: center;
-      margin: 1.5em 1em 2em 1em;
-      text-wrap: balance;
+    text-align: center;
+    margin: 1.5em 1em 2em 1em;
+    text-wrap: balance;
   }
 }
-
 
 @media screen and (max-width: 896px) {
   .card-header {
     font-size: 2em;
   }
-  .card-paragraph, .btn-explore {
+  .card-paragraph,
+  .btn-explore {
     font-size: 0.9em;
   }
-
-  
 }
-
 
 @media screen and (max-width: 480px) {
   .card-header {
     font-size: 1.8em;
   }
-  .card-paragraph, .btn-explore {
-    font-size: .8em;
+  .card-paragraph,
+  .btn-explore {
+    font-size: 0.8em;
   }
-
 }
