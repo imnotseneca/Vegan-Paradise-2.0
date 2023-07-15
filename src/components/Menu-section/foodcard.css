@@ -38,7 +38,7 @@
 
 .food-name {
   font-size: 18px;
-  color: #b22619;
+  color: #350101;
   border-bottom: 1px solid rgb(44, 42, 42);
 }
 
@@ -48,7 +48,7 @@
 
 .food-description {
   font-size: 12px;
-  color: rgb(90, 86, 86);
+  color: #180101;
   width: 200px;
   text-wrap: balance;
 }
