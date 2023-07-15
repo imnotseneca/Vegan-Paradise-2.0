@@ -17,7 +17,7 @@ export default function Footer () {
                 <SocialIcon url='https://github.com/imnotseneca' bgColor='black'/>
             </div>
             <div className='copyright'>
-                <h5><a href='https://www.linkedin.com/in/bruno-corrao/'>Bruno Corrao</a>. @ All rights reserved.</h5>
+                <span className='footer-text'><a href='https://www.linkedin.com/in/bruno-corrao/' className='footer-linkedin-anchor'>Bruno Corrao</a>. @ All rights reserved.</span>
             </div>
 
         </footer>
