@@ -38,21 +38,10 @@ clear: both;
 }
 
 body {
-  background-image: url('https://res.cloudinary.com/dd8ikgzov/image/upload/w_1920,h_1080/v1687280096/Vegan-Paradise/pizzzabg_w5cvmo.webp');
-  background-position: right;
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   background-color: #333;
   font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
-@media screen and (max-width: 480px) {
-  body {
-    background-position: left;
-  }
-
-}
 
 /******************************************
 /* BASE STYLES

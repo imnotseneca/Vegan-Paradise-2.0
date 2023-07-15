@@ -1,7 +1,3 @@
-import React from "react";
-import * as AiIcons from "react-icons/ai";
-
-
 export const headerData = [
   {
     id: 0,
@@ -9,20 +5,20 @@ export const headerData = [
     path: "/",
     navbar: false,
     sidebar: true,
-    icon: '<AiIcons.AiOutlineHome/>',
+    icon: '',
   },
   {
     id: 1,
-    title: "Menu",
-    path: "#menu",
+    title: "Service",
+    path: "#service",
     icon: '',
     navbar: true,
     sidebar: true,
   },
   {
     id: 2,
-    title: "Daily",
-    path: "#daily",
+    title: "Menu",
+    path: "#menu",
     navbar: true,
     sidebar: true,
   },
