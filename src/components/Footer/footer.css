@@ -121,7 +121,7 @@ footer {
     .footer-linkedin-anchor:hover {
       opacity: 1;
     }
-    .social-icon:hover{
-      opacity: 1;
+    .social-icon{
+      opacity: .95;
     }
 }

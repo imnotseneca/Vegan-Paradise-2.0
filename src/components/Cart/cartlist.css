@@ -100,12 +100,18 @@
 
 .cartlist-product select {
   width: 70px;
-  font-size: 1em;
+  font-size: 1.1em;
   outline: none;
 }
 
 .checkout-btn {
-  background-color: var(--clr-primary);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+  background-color: var(--clr-secondary);
   padding: 10px 20px;
   font-size: 1em;
   color: #fff;
@@ -114,8 +120,20 @@
   border: none;
   border-radius: 5px;
   text-wrap: balance;
+  opacity: .9;
+}
+
+.checkout-btn:hover {
+  opacity: 1;
 }
 
 .cartlist-product-image {
   width: 80px;
+}
+
+@media screen and (max-width: 896px) {
+  .checkout-btn {
+    opacity: 1;
+  }
+
 }

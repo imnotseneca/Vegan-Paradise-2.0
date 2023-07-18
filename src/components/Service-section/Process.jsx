@@ -1,59 +1,27 @@
 import "./process.css";
-import Slider from "react-slick";
-import "../../../node_modules/slick-carousel/slick/slick.css";
-import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 
 // eslint-disable-next-line react/prop-types
 export default function Process({ processData }) {
   // eslint-disable-next-line react/prop-types
-  const settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: false,
-    speed: 500,
-    autoplaySpeed: 200,
-    cssEase: "linear",
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-  // eslint-disable-next-line react/prop-types
   const processList = processData.map((element) => {
     return (
-      <>
-      <div className="process-item" key={element.id}>
-        <img src={element.imageURL} alt={element.alt} className="process-img" />
-      </div>
-      <div className="">
-                <p className="process-description">{element.processText}</p>
-      </div>
-      </>
+      <div className="process-container" key={element.id}>
+        <div className="process-elements-container">
+          <img
+            src={element.imageURL}
+            alt={element.alt}
+            className="process-img"
+            width={250}
+            height={200}
+          />
+          <div className="process-text-elements">
+            <span className="process-number">{element.id}</span>
+            <h3 className="process-header">{element.processHeader}</h3>
+            <p className="process-description">{element.processText}</p>
+          </div>
+        </div>
+        </div>
     );
   });
-  return <Slider {...settings}>{processList}</Slider>;
+  return <div>{processList}</div>;
 }
