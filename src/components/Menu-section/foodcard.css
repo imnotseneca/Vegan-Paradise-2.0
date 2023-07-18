@@ -74,7 +74,7 @@
 }
 
 .addcart-button {
-  background: linear-gradient(to bottom, #369322, #369322);
+  background: var(--clr-secondary);
   color: black;
   border: none;
   padding: 5px 10px;

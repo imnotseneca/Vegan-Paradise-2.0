@@ -1,22 +1,33 @@
 .service-section {
-  height: 100vh;
   background-color: #e7e0d7;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .service-header {
   text-align: center;
-  font-size: 2em;
-  padding: 2em;
+  font-size: 4em;
+  padding-top: 1.2em;
+}
+
+.service-text {
+  font-size: 1em ;
+  color: #541301;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding: 1em 0;
+
+}
+.service-header-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 896px) {
   .service-header {
-    font-size: 1.7em;
-    padding-left: 0;
-    padding-right: 0;
+    font-size: 2.7em;
+    padding-top: 2em;
   }
 
   .service-section {
@@ -25,12 +36,5 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-  }
-}
-
-@media screen and (max-width: 414px) {
-
-  .service-section {
-    height: 100vh;
   }
 }
