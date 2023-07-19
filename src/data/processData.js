@@ -29,6 +29,6 @@ export const processData = [
         imageURL:'https://res.cloudinary.com/dd8ikgzov/image/upload/v1687280577/Vegan-Paradise/undraw_pizza_sharing_wxop_lpacdh.svg',
         alt: 'Order-received',
         processHeader: 'Enjoy your paradisiac food.',
-        processText: `Once arrived, you won't belive what we prepared for you, instead you can prepare to be delighted`,
+        processText: `Once arrived, you won't belive what we prepared for you, instead you can prepare to be delighted.`,
     }
 ]
