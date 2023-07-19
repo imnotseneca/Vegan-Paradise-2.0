@@ -3,10 +3,11 @@ import { FaTimes } from "react-icons/fa";
 import "./sidebar.css";
 
 export default function Sidebar(props) {
+
   const navElements = props.navBarData.map((e) => {
     return (
         
-      <li className="aside-item" key={e.id}>
+      <li className="aside-item" key={e.id} onClick={props.showSideBar}>
         
         <a href={e.path}>{e.title}</a>
       </li>
