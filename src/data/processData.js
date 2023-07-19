@@ -18,7 +18,7 @@ export const processData = [
     {
         id: 0.3,
         idForText:7,
-        imageURL:'https://res.cloudinary.com/dd8ikgzov/image/upload/v1687280520/Vegan-Paradise/undraw_order_delivered_re_v4ab_oecle0.svg',
+        imageURL:'https://res.cloudinary.com/dd8ikgzov/image/upload/v1689724099/undraw_on_the_way_re_swjt_bawfsb.svg',
         alt: 'Order-delivery',
         processHeader: 'We promise to deliver within 30-50 minutes.',
         processText: 'You should take in mind your location and how far our delivers must travel.',
