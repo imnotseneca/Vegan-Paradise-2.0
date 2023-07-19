@@ -13,7 +13,7 @@ export const processData = [
         imageURL:'https://res.cloudinary.com/dd8ikgzov/image/upload/v1687280520/Vegan-Paradise/undraw_cooking_p7m1_yhkwxt.svg',
         alt: 'Order-preparation',
         processHeader: 'Step back and chill while the order is prepared.',
-        processText: 'It takes some time to craft delicious and nourishing food. You can keep about us meanwhile!',
+        processText: 'It takes some time to craft delicious and nourishing food. You can learn about us meanwhile!',
     },
     {
         id: 0.3,
@@ -29,6 +29,6 @@ export const processData = [
         imageURL:'https://res.cloudinary.com/dd8ikgzov/image/upload/v1687280577/Vegan-Paradise/undraw_pizza_sharing_wxop_lpacdh.svg',
         alt: 'Order-received',
         processHeader: 'Enjoy your paradisiac food.',
-        processText: `Once arrived, you won't belive we prepared for you, instead you can prepare to delighted`,
+        processText: `Once arrived, you won't belive what we prepared for you, instead you can prepare to be delighted`,
     }
 ]
