@@ -38,6 +38,18 @@
   align-self: end;
 }
 
+.btn-trash {
+  color: var(--clr-quaternary);
+  padding: 1em 1em;
+  border: none;
+  border-radius: 12px;
+  opacity: 0.8;
+}
+
+.btn-trash:hover {
+  opacity: 1;
+}
+
 .cartlist-empty {
   display: block;
   padding: 2rem;
@@ -133,6 +145,9 @@
 
 @media screen and (max-width: 896px) {
   .checkout-btn {
+    opacity: 1;
+  }
+  .btn-trash {
     opacity: 1;
   }
 

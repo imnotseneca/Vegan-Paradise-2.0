@@ -16,14 +16,11 @@ ul {
 .navbar-link {
   padding: 0 1.5em 0 1.5em;
   transition: .5s ease;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 5px;
-}
+  }
 
 .navbar-item {
   width: 100%;
-  margin: 0 0.5em;
-
+  text-transform: uppercase;
 }
 
 .navbar-item:hover {
@@ -32,8 +29,8 @@ ul {
 }
 
 .navbar-link:hover {
-  color: #f4ead1;
-  background-color: #841507;
+  color: black;
+  border-bottom: 1px solid #841507;
   
 }
 @media screen and (max-width: 896px) {

@@ -73,7 +73,7 @@ export default function CartList({
             })}
           </select>
           <button
-            className="btn remove-btn"
+            className="btn remove-btn btn-trash"
             onClick={() => onProductRemove(product)}
             aria-label="Remove-button"
           >
