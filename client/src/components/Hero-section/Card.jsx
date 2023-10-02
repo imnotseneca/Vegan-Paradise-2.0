@@ -9,7 +9,7 @@ export default function Card () {
 
                 Join us on this journey towards a kinder, greener future, where every purchase supports a brighter world for all sintient beings. 
             </p> */}
-            <a href="#service" className="btn-explore">Begin tasting paradise</a>
+            <a href="#menu" className="btn-explore">Begin tasting paradise 🍴</a>
         </div>
     )
 }
