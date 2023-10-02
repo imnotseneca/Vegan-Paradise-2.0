@@ -1,3 +1,18 @@
+/**
+ * Options Component
+ *
+ * This component displays a slider of options based on menuData.
+ * Each option includes a logo, and clicking an option triggers a callback to handle the selected option.
+ *
+ * @component
+ * @param {Function} handleOptionClick - Callback function triggered when an option is selected.
+ * @returns {JSX.Element} JSX representation of the Options component.
+ *
+ * @example
+ * // Example usage of Options component
+ * <Options handleOptionClick={(foodType) => handleOptionSelection(foodType)} />
+ */
+
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import "./options.css";
@@ -7,8 +22,16 @@ import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 import { menuData } from "../../data/menuData";
 
 export default function Options({ handleOptionClick }) {
+  /**
+   * State hook to manage the selected option.
+   * @type {string|null}
+   */
   const [selectedOption, setSelectedOption] = useState(null);
 
+  /**
+   * Settings for the Slick slider component.
+   * @type {Object}
+   */
   const settings = {
     dots: false,
     infinite: true,
@@ -18,7 +41,7 @@ export default function Options({ handleOptionClick }) {
     speed: 400,
     autoplaySpeed: 1000,
     centerMode: true,
-    centerPadding: '50px',
+    centerPadding: "50px",
     cssEase: "linear",
     responsive: [
       {
@@ -48,11 +71,22 @@ export default function Options({ handleOptionClick }) {
     ],
   };
 
+  /**
+   * Handles the selection of an option by updating the selectedOption state
+   * and triggering the provided callback.
+   * @param {string} foodType - The type of food associated with the selected option.
+   * @returns {void}
+   */
+
   const handleOptionSelection = (foodType) => {
     setSelectedOption(foodType);
     handleOptionClick(foodType);
   };
 
+  /**
+   * Maps over menuData to create an array of option elements for the slider.
+   * @type {JSX.Element[]}
+   */
   const menuLogotypes = menuData.map((element) => {
     const isActive = selectedOption === element.foodType;
 
