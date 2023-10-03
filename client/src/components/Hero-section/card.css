@@ -41,8 +41,8 @@
   color: #ebdfac;
   text-decoration: none;
   transition: 0.3s;
-  margin-bottom: 1em;
-  margin-top: 1em;
+  margin: 1em 0;
+  font-size: 1.5em;
 }
 
 .btn-explore:before {

@@ -1,10 +1,10 @@
 /**
  * CartList Component
- * 
+ *
  * This component represents a cart list for displaying and managing items in a shopping cart.
  * It includes functionality for removing products, adjusting quantities, and generating a text
  * message for order details.
- * 
+ *
  * @component
  * @param {boolean} visibility - Controls the visibility of the cart modal.
  * @param {Array} products - An array of products in the cart.
@@ -12,7 +12,7 @@
  * @param {Function} onClose - Callback function when the cart modal is closed.
  * @param {Function} onQuantityChange - Callback function when the quantity of a product is changed.
  * @returns {JSX.Element} JSX representation of the CartList component.
- * 
+ *
  * @example
  * // Example usage of CartList component
  * <CartList
@@ -24,14 +24,11 @@
  * />
  */
 
-
 /* eslint-disable react/prop-types */
 import "./cartlist.css";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { useMemo } from "react";
-
-
 
 export default function CartList({
   visibility,
@@ -88,6 +85,8 @@ export default function CartList({
           <select
             className="cartlist-count"
             value={product.count}
+            name={product.foodName}
+            id={product.id}
             onChange={(event) => {
               onQuantityChange(product.id, event.target.value);
             }}
@@ -137,23 +136,25 @@ export default function CartList({
           )}
           {products.length > 0 && productsCartList}
           {products.length > 0 && (
-            <a
-              className="btn checkout-btn"
-              aria-label="checkout-link"
-              href={`https://wa.me/542346569585?text=${encodeURIComponent(
-                text
-              )}`}
-              rel="noreferrer"
-              target="_blank"
-            >
-              Complete order
-              <img className="wpp-logo"
-                src="https://icongr.am/fontawesome/whatsapp.svg?size=32&color=ffffff"
-                width={25}
-                height={20}
-                alt="wpp-logo"
-              />
-            </a>
+            <div className="btn checkout-btn">
+              <a
+                aria-label="checkout-link"
+                href={`https://wa.me/542346569585?text=${encodeURIComponent(
+                  text
+                )}`}
+                rel="noreferrer"
+                target="_blank"
+              >
+                Complete order
+              </a>
+                <img
+                  className="wpp-logo"
+                  src="https://icongr.am/fontawesome/whatsapp.svg?size=32&color=ffffff"
+                  width={25}
+                  height={20}
+                  alt="wpp-logo"
+                />
+            </div>
           )}
         </div>
       </div>

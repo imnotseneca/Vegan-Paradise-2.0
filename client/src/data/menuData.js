@@ -7,8 +7,8 @@ export const menuData = [
         foodName: "BOMBASTIC",
         foodDesc:
           "No-meat burger with fresh vegetables, caesar sauce, cheese and fries with ketchup.",
-        price: 5,
-        rating: "3.5",
+        price: 12,
+        rating: "4",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508168/Vegan-Paradise/PngItem_28121_iy2y4e.webp",
         alt: "menu foodplate",
@@ -19,8 +19,8 @@ export const menuData = [
         foodName: "NO-CHICKEN LITTLE",
         foodDesc:
           "No-chiken fried burger with fresh vegetables, caesar sauce and cheese on top.",
-        price: 5,
-        rating: "3.5",
+        price: 10,
+        rating: "5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508166/Vegan-Paradise/PngItem_6817544_k8dqyz.webp",
         alt: "menu foodplate",
@@ -31,8 +31,8 @@ export const menuData = [
         foodName: "DOUBLE CANNONBALL",
         foodDesc:
           "Double no-meat burger with lettuce, pickles and purple onion.",
-        price: 5,
-        rating: "3.5",
+        price: 7,
+        rating: "4",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688509377/PngItem_598867_a0fxjk.webp",
         alt: "menu foodplate",
@@ -54,8 +54,8 @@ export const menuData = [
         foodName: "PUT*PARIÓ",
         foodDesc:
           "Spicy selection with aji put*parió and mustard decoration.",
-        price: 5,
-        rating: "3.5",
+        price: 9,
+        rating: "5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250/v1688508730/Vegan-Paradise/PngItem_5192603_c1nijj.webp",
         alt: "menu foodplate",
@@ -66,8 +66,8 @@ export const menuData = [
         foodName: "MAMMA MIA",
         foodDesc:
           "Sourdough pizza crust with mozarella and fungi and onion decorations.",
-        price: 5,
-        rating: "3.5",
+        price: 12,
+        rating: "4",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250/v1688508730/Vegan-Paradise/PngItem_5297163_dnqyeb.webp",
         alt: "menu foodplate",
@@ -78,8 +78,8 @@ export const menuData = [
         foodName: "BRO-CALLY",
         foodDesc:
           "Large pizza with delicious red sauce and mozarella, with tomatoes, brocoli and fungi on top.",
-        price: 5,
-        rating: "3.5",
+        price: 10,
+        rating: "4",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250/v1688508730/Vegan-Paradise/PngItem_5281544_my0b6g.webp",
         alt: "menu foodplate",
@@ -102,7 +102,7 @@ export const menuData = [
         foodDesc:
           "Textured soy mixed with caesar sauce and fresh vegetables on top.",
         price: 5,
-        rating: "3.5",
+        rating: "4",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508337/Vegan-Paradise/PngItem_708414_ibzvzr.webp",
         alt: "menu foodplate",
@@ -113,8 +113,8 @@ export const menuData = [
         foodName: "TAQUITO CALIENTE",
         foodDesc:
           "Textured soy mixed with spicy sauce and fresh vegetables on top.",
-        price: 5,
-        rating: "3.5",
+        price: 4,
+        rating: "4",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508337/Vegan-Paradise/PngItem_708414_ibzvzr.webp",
         alt: "menu foodplate",
@@ -125,8 +125,8 @@ export const menuData = [
         foodName: "TAQUITO BOMBA",
         foodDesc:
           "No-chicken nuggets mixed with vegetables and avocado.",
-        price: 5,
-        rating: "3.5",
+        price: 7,
+        rating: "5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508337/Vegan-Paradise/PngItem_1081289_bhyh9v.webp",
         alt: "menu foodplate",
@@ -149,7 +149,7 @@ export const menuData = [
         foodDesc:
           "No-meat hotdog with textured soy and caesar sauce. Contains mustard and ketchup.",
         price: 5,
-        rating: "3.5",
+        rating: "5",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508594/Vegan-Paradise/PngItem_3785447_l1iice.webp",
         alt: "menu foodplate",
@@ -160,8 +160,8 @@ export const menuData = [
         foodName: "HOT BATHROOM",
         foodDesc:
           "Explosive choice filled with red sauce, ketchup, wasabi, onion and mustard.",
-        price: 5,
-        rating: "3.5",
+        price: 3,
+        rating: "4",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508594/Vegan-Paradise/PngItem_692527_sv3ngv.webp",
         alt: "menu foodplate",
@@ -172,8 +172,8 @@ export const menuData = [
         foodName: "CALLEJERO",
         foodDesc:
           "Classic hotdog with seasoned vegetables on top.",
-        price: 5,
-        rating: "3.5",
+        price: 6,
+        rating: "4",
         imageURL:
           "https://res.cloudinary.com/dd8ikgzov/image/upload/c_pad,w_250,h_200/v1688508594/Vegan-Paradise/PngItem_1534381_c08c6x.webp",
         alt: "menu foodplate",

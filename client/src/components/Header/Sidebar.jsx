@@ -26,7 +26,7 @@ export default function Sidebar(props) {
         </div>
         <h3 className="aside-header">Vegan paradise</h3>
         <ul className="sidebar-categories">{navElements}</ul>
-        <a href="#menu" className="btn-explore" onClick={props.showSideBar}>
+        <a href="#menu" className="sidebar-btn-explore" onClick={props.showSideBar}>
           Start tasting paradise 🍴
         </a>
       </aside>
